@@ -8,7 +8,7 @@
     
       <item>
         <title>A SASS mixin to add multiple web fonts</title>
-        <description>&lt;p&gt;There are already mixins available that create &lt;code&gt;@font-face&lt;/code&gt; code for your webfonts but mostly they do not provide not a way to add multiple fonts.&lt;/p&gt;
+        <description>&lt;p&gt;There are already mixins available that create &lt;code&gt;@font-face&lt;/code&gt; code for your webfonts but mostly they do not provide a way to add multiple fonts.&lt;/p&gt;
 
 &lt;script src=&quot;https://gist.github.com/f9cf55461ab430e1af18.js&quot;&gt; &lt;/script&gt;
 
