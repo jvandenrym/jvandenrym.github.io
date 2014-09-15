@@ -41,7 +41,11 @@
     <link rel="stylesheet" href="/debug/style.css">
     {% endif %}
     <link rel="stylesheet" href="/assets/css/syntax.css">
+    <!--[if lt IE 9]>
+      <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
     <script src="/lib/modernizr-latest.js"></script>
+
     {% if site.env == 'production' %}
     {% include google_analytics.html %}
     {% endif %}
