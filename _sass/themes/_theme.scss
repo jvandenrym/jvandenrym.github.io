@@ -57,7 +57,8 @@ a {
 .read-more a,
 main > p a,
 article > p a,
-section#archive a {
+section#archive a,
+figure a {
   border-bottom: 1px solid $link-color;
   &:hover, &:focus {
     border-color: $link-hover;
@@ -155,24 +156,26 @@ figure {
 }
 // blog posts navigation
 .page-navigation {
-  text-align: center;
-  display: block;
+    clear: both;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.page-navigation div {
+    float: left;
+    left: 50%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
 }
 .page-navigation__link {
-  display: inline-block;
-  width: 45%;
+  float: left;
+  position: relative;
+  right: 50%;
+  padding: 0.5em;
+  max-width: 50%;
 }
-.page-navigation__link:only-child {
-  display: block;
-  text-align: center;
-  padding: 0;
-} 
-.page-navigation__link--left {
-  padding-right: 0.5em;
-}
-.page-navigation__link--right {
 
-}
 // social icons and RSS feed
 .social {
   text-align: center;
