@@ -173,6 +173,12 @@ figure {
 
 }
 // social icons and RSS feed
+.social {
+  text-align: center;
+  @include breakpoint($bp-med) {
+    text-align: left;
+  }
+}
 .social ul {
   list-style: none;
   margin: 0;
