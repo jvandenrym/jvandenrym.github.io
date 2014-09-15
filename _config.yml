@@ -55,6 +55,7 @@ Gemfile,
 README.md,
 app,
 blog.sublime-project,
+blog.sublime-workspace,
 config.rb']
 
 assets:
