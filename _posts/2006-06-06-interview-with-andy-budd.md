@@ -4,6 +4,9 @@ teaser: Interview with Andy Budd about user experience
 layout: post
 ---
 
+##Who is Andy Budd?##
+Andy Budd is design and user experience lead at [Clearleft](http://www.clearleft.com/) and author of the [Blogography](http://andybudd.com/) weblog. This interview I conducted for Fadtastic back in 2006. Almost a decade ago.
+
 ***Is the profession of web designer moving more towards interaction design that is graphic design + information design + human-computer interaction***
 
 
