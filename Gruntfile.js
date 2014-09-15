@@ -92,7 +92,7 @@ module.exports = function(grunt) {
         shim: {
           'jquery': {path: 'bower_components/jquery/jquery.js', exports: 'jQuery'},
           'fastclick': {path: 'bower_components/fastclick/lib/fastclick.js', exports: 'jQuery'},
-          'filament-fixed': {path: 'bower_components/filament-fixed/fixedfixed.js', exports: 'null'}
+          'jquery-jail': {path: 'bower_components/JAIL/src/jail.js', exports: 'jail'}
         }
       },
       debug: {
@@ -162,7 +162,7 @@ module.exports = function(grunt) {
       },
       build: {
         files: {
-          'assets/css/style.css': ['assets/css/main.css', 'assets/css/pygments.css']
+          'build/style.css': ['build/main.css', 'assets/css/pygments.css']
         }
       }
     },
@@ -182,7 +182,7 @@ module.exports = function(grunt) {
     cssmin: {
       build: {
         files: {
-          'assets/css/style.css': ['assets/tmp/style.clean.css']
+          'assets/css/style.min.css': ['build/style.css']
         }
       }
     },
@@ -266,9 +266,7 @@ module.exports = function(grunt) {
       svg: ['assets/svg/compressed', 'assets/svg_icons/output'],
       debug: ['debug'],
       buildTemp: [
-        'assets/css/main.css',
-        'assets/tmp/style.clean.css',
-        'assets/js/app.js'
+        'build/*'
       ],
       all: ['debug', 'build']
     },
@@ -298,6 +296,16 @@ module.exports = function(grunt) {
       icons: {
         src: '_src/logo.png',
         dest: 'assets/images'
+      }
+    },
+    "imagemagick-resize":{
+      dev:{
+        from:'_src/images/',
+        to:'assets/images/',
+        files:'*',
+        props:{
+          width:760
+        }
       }
     },
 
@@ -334,15 +342,8 @@ module.exports = function(grunt) {
           dest: '_src/svg/output',
         }],
         options: {
-          datasvgcss: "data.svg.css",
-          datapngcss: "data.png.css",
-          urlpngcss: "svg.fallback.css",
-          cssprefix: '.svg',
-          colors: {
-              light: '#ccc',
-              danger: '#ed3921',
-              success: '#8DC63F'
-          }
+          datasvgcss: "/assets/css/svg.fallback.css",
+          cssprefix: '.icon--'
         }
       }
     }
@@ -367,18 +368,19 @@ module.exports = function(grunt) {
   grunt.registerTask('jekyll-production', function() {
     grunt.log.writeln('Setting environment variable JEKYLL_ENV=production');
     process.env.JEKYLL_ENV = 'production';
-    grunt.task.run(['shell:jekyllBuild','uglify','uncss','cssmin']);
+    grunt.task.run(['shell:jekyllBuild']);
   });
 
   // Compile and minify JS & CSS, run Jekyll build for production 
   grunt.registerTask('build', [
     'clean:all',
     'compass:build',
-    'autoprefixer:build',
     'browserify:build',
     'concat:build',
-    'jekyll-production',
-    'clean:buildTemp'
+    'cssmin',
+    'uglify',
+    'clean:buildTemp',
+    'jekyll-production'
   ]);
 
   // grunt.registerTask('favicons:icons');
@@ -387,6 +389,7 @@ module.exports = function(grunt) {
     'debug',
     'svgmin',
     'grunticon',
+    'imagemagick-resize',
     'fontina',
     'modernizr',
     'csslint:lax' // run as seperate task to avoid csslint going nuts!!
