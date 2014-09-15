@@ -17,5 +17,4 @@ _site/
 _src/
 debug
 build
-assets
 Gemfile.lock
