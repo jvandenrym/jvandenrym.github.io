@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Johan Van den Rym</title>
+    <description>Thought about code and design.</description>    
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>A SASS mixin to add multiple web fonts</title>
+        <description>&lt;p&gt;There are already mixins available that create &lt;code&gt;@font-face&lt;/code&gt; code for your webfonts but mostly they do not provide not a way to add multiple fonts.&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/f9cf55461ab430e1af18.js&quot;&gt; &lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 15 Sep 2014 00:00:00 +0200</pubDate>
+        <link>/2014/09/15/sass-mixin-fonts/</link>
+        <guid isPermaLink="true">/2014/09/15/sass-mixin-fonts/</guid>
+      </item>
+    
+      <item>
+        <title>A new blog</title>
+        <description>&lt;p&gt;Besides writing new articles I have included my guest blog posts I did in the past. These are a collection of interviews and book reviews which also appeared on the now defunct fadtastic - a web design journal from the UK.
+For now I added the interview I did with Andy Budd about User experience which is still current and on-topic.&lt;/p&gt;
+
+&lt;p&gt;This blog was created by using web technologies like &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;, &lt;a href=&quot;http://jquery.com/&quot;&gt;Jquery&lt;/a&gt; and &lt;a href=&quot;http://sass-lang.com/&quot;&gt;SASS&lt;/a&gt;. No background images where used to create the icons or logo. They are all &lt;abbr title=&quot;Scalable Vector Graphics&quot;&gt;SVG&lt;/abbr&gt;. It is a responsive theme created from scratch.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Sep 2014 00:00:00 +0200</pubDate>
+        <link>/2014/09/15/a-new-blog/</link>
+        <guid isPermaLink="true">/2014/09/15/a-new-blog/</guid>
+      </item>
+    
+      <item>
+        <title>Andy budd about user experience</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;Is the profession of web designer moving more towards interaction design that is graphic design + information design + human-computer interaction&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Andy: Most definitely. As the industry matures, website owners and users want more than just a pretty interface. Website owners want to differentiate their products and services from their competition by providing their customers with a better experience. Users want something that solves real problems in an enjoyable and easy to use way.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The concept of user experience may be relatively new on the web, but we’ve seen this cycle many times before. Take consumer electronics. Early products are usually expensive and feature-poor. As the industry grows, the technology is the first thing to get refined and so companies start competing on looks instead of features. Once product lines start to become both fashionable and technically identical, the next logical step is to make them easier and more pleasurable to use.&lt;/em&gt;&lt;/strong&gt;
+&lt;strong&gt;&lt;em&gt;Does user experience stand usually for user-centric design or is it more?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Andy: User experience design is a difficult term to define as it actually relates to a whole series of disciplines, of which user-centered design is just one. With user-centered design you typically focus on the functional needs of the user to make a product or service that fits in with their life. User experience design pushes this concept slightly further, by not only creating something that is easy to use, but creating something that is actually a pleasure to use.
+How can we provide quality of a user experience?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;The best way to ensure a good experience is to research user needs; bring your creative problem solving skills to bare in order to design a solution; test that solution on real users, and then iterate based on their feedback. Good user experience design is an ongoing process rather than a one off commodity.
+Is the access to information the key factor in interaction design?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Andy: Easy access to information is obviously a key factor in web usability which forms a huge part of interaction design.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Feedback of users is invaluable but how do you evaluate this?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Andy: Very carefully. Users often try to be helpful and offer suggestions about why they thought a particular interaction was problematic or how it could be improved. However it turns out that people actually aren’t very good at evaluating their own actions and their reasoning can often be wildly off. As such it is much better to evaluate what users do rather than what they say.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;A last question: do you have an example of a website(-s) that provides a great user experience?&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Andy: User experience is very personal, so what may provide a great experience for one set of users may provide a confusing experience to another group. Take Flickr. I personally love the user experience of this site–despite a few usability issues–but other people can find it confusing. Conversely there are millions of teenagers who think MySpace is the best thing in the world, despite the fact that it looks like the back end of a bus and is about as usable as a chocolate teapot.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Jun 2006 00:00:00 +0200</pubDate>
+        <link>/2006/06/06/interview-with-the-man-in-blue/</link>
+        <guid isPermaLink="true">/2006/06/06/interview-with-the-man-in-blue/</guid>
+      </item>
+    
+  </channel>
+</rss>
