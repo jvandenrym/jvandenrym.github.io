@@ -1,0 +1,13 @@
+<nav role="navigation" aria-label="site links">
+  <ul class="b-navigation b-navigation_layout_horiz">
+    {% for nav_item in site.data.navigation %}
+    {% assign current = nil %}
+    {% if page.url contains nav_item.href %}
+    {% assign current = 'b-navigation__link__link_state_current' %}
+    {% endif %}
+    <li class="b-navigation__item">
+      <a href="{{ nav_item.href }}" class="b-navigation__link {{ current }}">{{ nav_item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
