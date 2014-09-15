@@ -56,8 +56,8 @@ a {
 .entry a,
 .read-more a,
 main > p a,
-article > p a
- {
+article > p a,
+section#archive a {
   border-bottom: 1px solid $link-color;
   &:hover, &:focus {
     border-color: $link-hover;
