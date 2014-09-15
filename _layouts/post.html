@@ -19,16 +19,17 @@ layout: default
         </header>
         {{ content }}
       </article>
-      
       <nav class="page-navigation" aria-label="blog posts navigation" role="navigation">
-        {% if page.previous.url %}
-        <a href="{{page.previous.url}}" title="Previous Post:
-{{page.previous.title}}" class="page-navigation__link page-navigation__link--left" rel="prev">{{page.previous.title}} &larr;</a>
-        {% endif %} 
-       {% if page.next.url %}
-        <a href="{{page.next.url}}" title="next Post:
-{{page.next.title}}" class="page-navigation__link page-navigation__link--right" rel="next">&rarr; {{page.next.title}}</a>
+        <div>
+        {% if page.next.url %}
+        <a href="{{page.next.url}}" title="Newer Post:
+{{page.next.title}}" class="page-navigation__link page-navigation__link--right" rel="next">&larr; {{page.next.title}}</a>
       {% endif %}
+       {% if page.previous.url %}
+        <a href="{{page.previous.url}}" title="Older Post:
+{{page.previous.title}}" class="page-navigation__link page-navigation__link--left" rel="prev">{{page.previous.title}} &rarr;</a>
+        {% endif %} 
+        </div>
       </nav> 
     </main>
   </div>
