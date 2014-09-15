@@ -55,7 +55,8 @@ a {
 
 .entry a,
 .read-more a,
-main > p a
+main > p a,
+article > p a
  {
   border-bottom: 1px solid $link-color;
   &:hover, &:focus {
