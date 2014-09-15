@@ -174,8 +174,11 @@ figure {
   right: 50%;
   padding: 0.5em;
   max-width: 50%;
+  text-align: center;
 }
-
+.page-navigation__link:only-child {
+  max-width: 100%;
+}
 // social icons and RSS feed
 .social {
   text-align: center;
