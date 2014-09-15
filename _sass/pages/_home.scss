@@ -1,0 +1,117 @@
+.head {
+  header {
+    margin: 0 0 0.5em 0;
+    @include breakpoint($bp-med) {
+      margin: 0;
+    }
+  }
+  h1 {
+    text-align: center;
+    color: inherit;
+  }
+  span {
+    display: block;
+    font-size: 1rem;
+    color: $text-color;
+  }
+}
+
+.page--home {
+  .logo {
+    z-index: 1000;
+    width: 16rem;
+    height: 16rem;
+      @include breakpoint($bp-med) {
+        width: 20rem;
+        height: 20rem;
+      }
+      margin: auto;
+      position: relative;
+  }
+}
+.logo__front,
+.logo__back {
+  backface-visibility: hidden;
+  transition: transform 2000ms;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.logo__front {
+  transform: perspective(200) rotateY(0);
+  z-index: 900;
+}
+.logo__back {
+  transform: rotateY(-180deg);
+  z-index: 800;
+}
+
+.logo:hover .logo__front {
+  transform: rotateY(180deg);
+  transform: perspective(200) rotateY(180deg);
+}
+.logo:hover .logo__back {
+  z-index: 950;
+  transform: rotateY(0deg);
+  transform: perspective(200) rotateY(0deg);
+}
+
+/*** Just for show... ***/
+.logo {
+  cursor: pointer;
+  color: lighten($text-color,30%);
+  font-family: "operator-light-webfont";
+  letter-spacing: 0.02em;
+  font-size: 1.6rem;
+  @include breakpoint($bp-med) {
+    font-size: 2rem;
+  }
+  line-height: 1.1em;
+  text-align: center;
+  margin: 0;
+}
+.logo .logo__front,
+.logo .logo__back {
+  box-sizing: border-box;
+}
+.logo .logo__front {
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20400%20400%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%3E%20%3Cdefs%3E%3C%2Fdefs%3E%20%3Cmetadata%3E%20%20%3Crdf%3ARDF%3E%20%20%20%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%20%20%20%20%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%20%20%20%20%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%2F%3E%20%20%20%20%3Cdc%3Atitle%2F%3E%20%20%20%3C%2Fcc%3AWork%3E%20%20%3C%2Frdf%3ARDF%3E%20%3C%2Fmetadata%3E%20%3Cg%20fill%3D%22%23006c69%22%20transform%3D%22matrix(0.57256574%2C0%2C0%2C0.57256574%2C-1.4067562e-5%2C349.98077)%22%3E%20%20%3Cg%20transform%3D%22matrix(7.9999999%2C0%2C0%2C7.9999999%2C-1.7198537e-4%2C-611.51861)%22%3E%20%20%20%3Cpath%20d%3D%22m50.25%2C24.875c0%2C13.94519-11.30481%2C25.25-25.25%2C25.25s-25.25-11.30481-25.25-25.25%2C11.30481-25.25%2C25.25-25.25%2C25.25%2C11.30481%2C25.25%2C25.25z%22%20transform%3D%22matrix(1.729232%2C0%2C0%2C1.729232%2C0.43233302%2C0.68204843)%22%20fill%3D%22%23ffffff%22%2F%3E%20%20%20%3Cpath%20d%3D%22m63.38254%2C43.8766-16.7958%2C6.3505%2C0-0.029%2C0.091-0.076c-0.033%2C0.01-0.055%2C0.029-0.086%2C0.033v0.044l-13.325%2C12.1745%2C3.7824-18.0334c-0.1807-0.735-0.2479-1.4877-0.1893-2.2164l-2.6871-16.3843%2C13.0391%2C12.3563-0.058%2C0.032-0.1238-0.04-0.01%2C0.1122-0.04%2C0.011c0.01%2C0.017%2C0.014%2C0.024%2C0.031%2C0.022v-0.044l0.1305-0.073%2C16.2405%2C5.752z%22%20fill%3D%22%2317806d%22%2F%3E%20%20%20%3Cpath%20d%3D%22M34.83334%2C86.448449c23.615199%2C4.876425%2C46.707-10.302538%2C51.585299-33.908655%2C1.422602-6.883554%2C1.128501-13.726223-0.571698-20.085977l-9.809201%2C4.385813c0.9257%2C4.34713%2C0.9936%2C8.934864%2C0.03699%2C13.564084-3.697989%2C17.895014-21.20269%2C29.40129-39.10449%2C25.704612-17.901801-3.696678-29.4126-21.194546-25.7145-39.089463%2C3.6981-17.895019%2C21.2091-29.431782%2C39.110899-25.735204%2C4.382802%2C0.905052%2C8.371401%2C2.634887%2C11.8582%2C5.000577l10.866302-4.869327c-5.602601-5.121831-12.6139-8.824807-20.587701-10.47127302-23.615201-4.87652498-46.7133%2C10.33302602-51.5917%2C33.93924702-4.87834%2C23.606123%2C10.3065%2C46.689041%2C33.9217%2C51.565566zm40.1322-53.530309%2C9.6678-4.31934c-0.736699-1.994232-1.622701-3.916894-2.635701-5.775479l-9.643498%2C4.356325c1.047499%2C1.819899%2C1.922499%2C3.74216%2C2.611399%2C5.738494zm-4.8454-9.134389%2C9.7786-4.39221c-1.160499-1.730235-2.4324-3.386297-3.829899-4.937501l-10.270201%2C4.609628c1.592001%2C1.434748%2C3.041799%2C3.016638%2C4.3215%2C4.720083z%22%20fill%3D%22%2395918c%22%2F%3E%20%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0 auto 0.5rem auto;
+  box-sizing: border-box;
+  *zoom: 1;
+}
+.logo .logo__back {
+  border-radius: 50%; 
+  background: #17806D;
+  padding: 1em;
+  *zoom: 1;
+}
+.logo .logo__back ,
+.logo .logo__front {
+  transition-duration: 750ms;
+}
+
+.logo--wrap {
+      display: table;
+      height: 14rem;
+      @include breakpoint($bp-med) {
+        height: 18rem;
+      }
+    }
+.logo--vcenter {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.entry {
+  margin: 1em 0 0 0;
+}
+.entry p {
+  margin: 0;
+}
+
+header a h1 {
+  margin: 0;
+}

@@ -1,0 +1,13 @@
+@include web_fonts (
+  Meddle-Regular operator-light-webfont,
+  /assets/fonts
+);
+
+
+body, header h1 span {
+   font-family: quote(map-fetch($fonts, selectors body)), $font-sans;
+}
+#{headings()} {
+  font-family: quote(map-fetch($fonts, selectors headings)), $font-sans;
+  font-weight: normal;
+}

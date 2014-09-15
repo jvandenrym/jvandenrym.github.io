@@ -1,0 +1,235 @@
+*, 
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+// extends
+%logo {
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3Ardf%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20xmlns%3Acc%3D%22http%3A%2F%2Fcreativecommons.org%2Fns%23%22%20xmlns%3Adc%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Felements%2F1.1%2F%22%20viewBox%3D%220%200%20341%20341%22%3E%20%3Cmetadata%3E%20%20%3Crdf%3ARDF%3E%20%20%20%3Ccc%3AWork%20rdf%3Aabout%3D%22%22%3E%20%20%20%20%3Cdc%3Aformat%3Eimage%2Fsvg%2Bxml%3C%2Fdc%3Aformat%3E%20%20%20%20%3Cdc%3Atype%20rdf%3Aresource%3D%22http%3A%2F%2Fpurl.org%2Fdc%2Fdcmitype%2FStillImage%22%2F%3E%20%20%20%20%3Cdc%3Atitle%2F%3E%20%20%20%3C%2Fcc%3AWork%3E%20%20%3C%2Frdf%3ARDF%3E%20%3C%2Fmetadata%3E%20%3Cg%20transform%3D%22translate(-292.05068%2C-370.73967)%22%3E%20%20%3Cg%20transform%3D%22matrix(0.99820581%2C0%2C0%2C0.99820815%2C86.084163%2C24.074727)%22%3E%20%20%20%3Cpath%20fill%3D%22%2395918c%22%20d%3D%22m342.60174%2C685.33422c92.38072%2C19.07612%2C182.71394-40.30258%2C201.79744-132.64755%2C5.5651-26.92782%2C4.4146-53.69571-2.23644-78.57448l-38.37278%2C17.15689c3.62126%2C17.00557%2C3.88688%2C34.95237%2C0.14474%2C53.06145-14.46627%2C70.00366-82.94321%2C115.01514-152.97358%2C100.55408-70.03037-14.46107-115.05967-82.91112-100.593-152.91439%2C14.46666-70.00366%2C82.96825-115.13441%2C152.99861-100.67374%2C17.14515%2C3.54048%2C32.74823%2C10.30743%2C46.3883%2C19.5618l42.50807-19.04836c-21.91691-20.03613-49.34454-34.52183-80.53738-40.96266-92.38072-19.07651-182.73858%2C40.42185-201.82248%2C132.76721-19.08351%2C92.34497%2C40.31818%2C182.64323%2C132.69889%2C201.71975z%22%2F%3E%20%20%20%3Cpath%20fill%3D%22%2317806d%22%20d%3D%22m499.5956%2C475.92857%2C37.81964-16.89685c-2.88191-7.80126-6.34787-15.32253-10.31064-22.59314l-37.72458%2C17.04153c4.09773%2C7.11928%2C7.52066%2C14.63899%2C10.21558%2C22.44846z%22%2F%3E%20%20%20%3Cpath%20fill%3D%22%2317806d%22%20d%3D%22m480.6408%2C440.19569%2C38.25308-17.18192c-4.53979-6.76852-9.51536-13.24689-14.98226-19.31506l-40.17618%2C18.03245c6.22777%2C5.6126%2C11.89927%2C11.80081%2C16.90536%2C18.46453z%22%2F%3E%20%20%20%3Cpath%20d%3D%22m454.28386%2C518.86246-65.70378%2C24.83302%2C0-0.1134%2C0.35598-0.2972c-0.12909%2C0.0391-0.21515%2C0.11341-0.33642%2C0.12905v0.17206l-52.12631%2C47.60721%2C14.79644-70.51788c-0.70688-2.87414-0.96977-5.81751-0.74053-8.66702l-10.51171-64.06922%2C51.00788%2C48.31812-0.22689%2C0.12513-0.48429-0.15642-0.0391%2C0.43875-0.15647%2C0.043c0.0391%2C0.0665%2C0.0548%2C0.0939%2C0.12127%2C0.086v-0.17206l0.5105-0.28546%2C63.5315%2C22.49265z%22%20fill%3D%22%2317806d%22%2F%3E%20%20%3C%2Fg%3E%20%3C%2Fg%3E%3C%2Fsvg%3E'); 
+  background-repeat: no-repeat;
+}
+
+%screenreader,.screenreader {
+  border: 0 none;
+  clip: rect(0px, 0px, 0px, 0px);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+@mixin screenreader-revert() {
+  clip: initial;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  position: static;
+  width: auto;
+}
+
+[href="#main"] {
+    font-size: 0.85em;
+    position: absolute;
+    right: 0.5em;
+    top: -100px;
+}
+[href="#main"]:focus {
+    top: 0.5em;
+}
+
+body {
+  color: shade($text-color, 30%);
+}
+
+// links
+a {
+  color:  $link-color;
+  text-decoration: none;
+  &:hover, &:focus {
+    color:  $link-hover;
+  }
+}
+
+.entry a,
+.read-more a,
+main > p a
+ {
+  border-bottom: 1px solid $link-color;
+  &:hover, &:focus {
+    border-color: $link-hover;
+    background-color: lighten($link-hover, 60%);
+  }
+}
+
+// header
+.head {
+  position: relative;
+  z-index: 1000;
+  background: #fff;
+  header {
+    text-align: center;
+    @include breakpoint($bp-med) {
+      text-align: left;
+    }
+    h1 {
+      @include setType(6, $ms-up2);
+      margin: 0;
+      span {
+        @extend %screenreader;
+        @include setType(2, $ms-down2);
+        color: $text-color;
+        padding-left: 1.2em;
+        @include breakpoint($bp-large-2) {
+          @include screenreader-revert();
+          padding-left: 2.1em;
+        }
+      }
+    }
+  }
+}
+
+.head header .logo {
+  @extend %logo;
+  background-position: left center;
+  padding-left: 1.2em;
+  @include breakpoint($bp-med) {
+    padding-left: 1.3em;
+  }
+}
+
+.head {
+  .page--default & {
+    border-bottom: 1px solid rgba($text-color, .6);  
+  }
+  padding: 0.5em 0 1em 0;
+}
+.page--home .head {
+  background-color: transparent;
+}
+
+[role=navigation] {
+  margin: 0 0 0.5em 0;
+  @include breakpoint($bp-med) {
+    margin: 0;
+  }
+}
+
+.b-navigation {
+  @include navigation(
+    $orientation: horizontal,
+    $margin: 1em
+  );
+}
+
+// posts
+.main > main {
+  padding-top: 2rem;
+}
+article.post {
+  @include container($bp-med);
+}
+article header,
+article #{headings()} {
+  text-align: center;
+  @include breakpoint($bp-med) {
+    text-align: left;
+  }  
+}
+
+article img {
+  max-width: 100%;
+  widht: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0 0 1em 0;
+}
+
+.page > footer {
+  color: lighten($text-color, 20%); 
+}
+// blog posts navigation
+.page-navigation {
+  text-align: center;
+  display: block;
+}
+.page-navigation__link {
+  display: inline-block;
+  width: 45%;
+}
+.page-navigation__link:only-child {
+  display: block;
+  text-align: center;
+  padding: 0;
+} 
+.page-navigation__link--left {
+  padding-right: 0.5em;
+}
+.page-navigation__link--right {
+
+}
+// social icons and RSS feed
+.social ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+  @include breakpoint($bp-med) {
+    text-align: right;
+  }
+}
+.social li {
+  display: inline-block;
+  margin: 0 0 0 0.25em;
+  &:first-child {
+    margin: 0;
+  }
+}
+.icon {
+  display: inline-block;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1rem auto;
+  width: 2rem;
+  height: 2rem;
+  transition:all 0.3s linear;
+  position: relative;
+
+  &:before {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background: linear-gradient(to top, $text-color 50%, darken($link-color, 3%) 50%);
+    background-size: 100% 200%;
+    background-position:left bottom;
+    transition:all 0.5s ease;
+  }
+  &:hover {
+    /* for IE 10*/
+  }
+  &:hover:before {
+    background-position: left top;
+  }
+}
+// grunticon issue with data-uri and IE??
+// Weird bug!!
+// html[data-useragent*='Trident'] .page--default .icon:before { z-index: auto; }
+
+// code
+p code {
+  display:inline-block;
+  padding:0.1em 0.25em;
+  border:1px solid lighten($text-color, 30%);
+  font-family: $font-mono;
+  color: $link-color;
+}

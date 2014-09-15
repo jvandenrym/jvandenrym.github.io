@@ -1,0 +1,52 @@
+// b-navigation item styles
+@mixin navigation__item() {
+  @content;
+}
+// b-navigation link styles
+@mixin navigation__link() {
+  @content;
+}
+
+// navigation list
+@mixin navigation (
+  $nav_selector: 'b-navigation',
+  $margin: 0.5em,
+  $orientation: vertical, // horizontal or vertical orientation?
+  $current_link_style: false // include active link style
+  ) {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    @at-root {
+      .#{$nav_selector}__link,
+      .#{$nav_selector}__item  {
+        display: block;
+      }
+      .#{$nav_selector}__item:first-child {
+        margin: 0;
+      }
+      @if $orientation == 'horizontal' {
+        .#{$nav_selector}_layout_horiz {
+          @include pie-clearfix;
+        }
+        .#{$nav_selector}__item {
+          display: inline-block;
+          @include breakpoint($bp-med) {
+            float: left;
+            margin: 0 0 0 #{$margin};
+          }
+        }
+      }
+      @else {
+       .#{$nav_selector}__item {
+          margin: #{$margin} 0 0 0; 
+        }
+      }
+      
+      @if $current_link_style {
+        .#{$nav_selector}__link__link_state_current {
+          @content;
+        }
+      }
+    }
+  }

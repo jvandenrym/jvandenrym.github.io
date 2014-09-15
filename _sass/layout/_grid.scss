@@ -1,0 +1,100 @@
+$susy: (
+  output: float,
+  math: fluid,
+  columns: 12,
+  gutters: 1,
+  gutter-position: inside
+);
+
+body {
+  @include container($bp-xl-2);
+}
+.page {
+  @include full();
+  // header
+  .head {
+    @include breakpoint($bp-med) {
+      display: table;
+      width: 100%;
+    }
+    @include breakpoint($bp-med) {
+      > header,
+      [role=navigation],
+      .social  {
+        display: table-cell;
+        vertical-align: bottom;
+        float: none !important;
+      }
+    }
+  }
+  // footer
+  .footer {
+    @include full();
+  }
+}
+
+// home page
+.page--home {
+  .head {
+    header {
+      @include breakpoint($bp-med) {
+        @include span(6);
+      }
+    }
+    [role=navigation] {
+      @include breakpoint($bp-med) {
+        @include span(3 at 7);
+      }
+    }
+    .social {
+      @include breakpoint($bp-med) {
+        @include span(3 at 10);
+      }
+    }  
+  }
+  .intro {
+    margin: 0 0 0.5em 0;
+    @include breakpoint($bp-med) {
+      @include span(6);
+    }
+  }
+  main {
+    @include breakpoint($bp-med) {
+      @include span(6 at 7);
+    }
+  }
+}
+
+// default page
+.page--default {
+  .head header {
+    @include breakpoint($bp-med) {
+      @include span(5);
+    }
+    @include breakpoint($bp-large-2) {
+      @include span(6);
+    }
+  }
+  .head [role=navigation] {
+    @include breakpoint($bp-small-3) {
+      @include span(4 at 9);
+    }
+    @include breakpoint($bp-large-2) {
+      @include span(3 at 7);
+    }
+  }
+  .social {
+    @include breakpoint($bp-med) {
+      @include span(3 at 10);
+    }
+    @include breakpoint($bp-large-2) {
+      @include span(3 at 8);
+    }
+  }
+  .main {
+    @include container($bp-xl-2);
+    main {
+      @include full();
+    }
+  }
+}
