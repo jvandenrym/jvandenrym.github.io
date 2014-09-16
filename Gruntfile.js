@@ -157,12 +157,12 @@ module.exports = function(grunt) {
     concat: {
       debug: {
         files: {
-          'debug/style.css': ['debug/main.css', 'assets/css/pygments.css']
+          'debug/style.css': ['debug/main.css','_src/css/syntax.css']
         }
       },
       build: {
         files: {
-          'build/style.css': ['build/main.css', 'assets/css/pygments.css']
+          'build/style.css': ['build/main.css','_src/css/syntax.css']
         }
       }
     },
