@@ -34,9 +34,9 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png">
   <link rel="apple-touch-icon-precomposed" href="/favicon-57.png">
   {% if site.env == 'production' %}
-  <link rel="stylesheet" href="/assets/css/style.min.css">
+  <link rel="stylesheet" href="/assets/css/style.min.css?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
   {% else %}
-  <link rel="stylesheet" href="/debug/style.css">
+  <link rel="stylesheet" href="/debug/style.css?bust={{ site.time | date_to_xmlschema | cgi_escape }}">
   {% endif %}
   <!--[if lt IE 9]>
   <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -54,7 +54,7 @@
   <a href="#main">skip to content</a>
   {{ content }}
   {% if site.env == 'production' %}
-  <script src="/assets/js/app.min.js"></script>
+  <script src="/assets/js/app.min.js?bust={{ site.time | date_to_xmlschema | cgi_escape }}"></script>
   {% else %}
   <!--[if lte IE 8]>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
