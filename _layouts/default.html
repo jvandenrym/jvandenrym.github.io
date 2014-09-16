@@ -40,11 +40,9 @@
     {% else %}
     <link rel="stylesheet" href="/debug/style.css">
     {% endif %}
-    <link rel="stylesheet" href="/assets/css/syntax.css">
     <!--[if lt IE 9]>
       <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
-    <script src="/lib/modernizr-latest.js"></script>
 
     {% if site.env == 'production' %}
     {% include google_analytics.html %}
@@ -61,11 +59,10 @@
   {% if site.env == 'production' %}
     <script src="/assets/js/app.min.js"></script>
     {% else %}
+    <!--[if lte IE 8]>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <![endif]-->
     <script src="/debug/app.js"></script>
     {% endif %}
-  <!--[if lte IE 8]>
-  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <![endif]-->
-  
-  </body>
+    </body>
 </html>
