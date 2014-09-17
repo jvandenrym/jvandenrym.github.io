@@ -56,7 +56,8 @@ README.md,
 app,
 blog.sublime-project,
 blog.sublime-workspace,
-config.rb']
+config.rb,
+grunticon.hbs']
 
 assets:
   root_url: '/assets'
