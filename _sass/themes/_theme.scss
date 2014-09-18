@@ -246,31 +246,15 @@ html[data-useragent*='Trident'] .page--default .icon:before {
 html[data-useragent*='Trident'] .page--default .icon:after {
   content:"";
   position: absolute;
-    z-index: 10;
-    left: 0;
-    top: 0;
-    width: inherit;
-    height: inherit;
-    background-color: transparent;
-}
-
-html[data-useragent*='Trident'] .page--default .icon--twitter:after {
-  background-image: url(/assets/css/png/twitter.png) !important;
-  background-size: 18px auto;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-position: center center !important;
-}
-html[data-useragent*='Trident'] .page--default .icon--linkedin:after {
-  background-image: url(/assets/css/png/linkedin.png) !important;
-  background-size: 18px auto;
-  background-repeat: no-repeat;
-  background-position: center center !important;
-}
-html[data-useragent*='Trident'] .page--default .icon--rss:after {
-  background-image: url(/assets/css/png/rss.png) !important;
-  background-size: 18px auto;
-  background-repeat: no-repeat;
-  background-position: center center !important;
+  background-size: 1rem auto;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: inherit;
+  height: inherit;
+  background-color: transparent;
 }
 
 // code
