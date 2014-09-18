@@ -16,9 +16,9 @@ Created a Drupal front-end theme based on the Bootstrap framework. *This website
 
 ##Muntpunt##
 
-Created Drupal page templates for the Agenda section. This involved customization of the UIT agenda API templates and integration of Google API for localization.
+Created Drupal page templates for the [Agenda section](http://www.muntpunt.be/agenda/search). This involved customization of the UIT agenda API templates and integration of Google API for localization.
 
-{% image muntpunt_agenda_search.jpg "Agenda www.muntpunt.be" "[Search page for events](http://www.muntpunt.be/agenda/search) (UIT agenda)" %}
+{% image muntpunt_agenda_search.jpg "Agenda www.muntpunt.be" "Search page for events (UIT agenda)" %}
 
 {% image muntpunt_agenda_local.jpg "Agenda detail page www.muntpunt.be" "Event detail page with Google Maps integration" %}
 
@@ -41,13 +41,15 @@ The main goal of the [European Research Council (ERC)](http://erc.europa.eu) is 
 
 Green Week, the biggest annual conference on European environment. Created a drupal conference website with live photo and video blogging during the 3-day event. Build the custom theme and page templates for the website. *[Website](http://ec.europa.eu/environment/archives/greenweek2012/) is only available as static HTML as it gets archived after the conference ends.*
 
-{% image greenweek_2012.jpg "Greenweek 2012" "Homepage of [greenweek 2012 conference website](http://ec.europa.eu/environment/archives/greenweek2012/index.html)" %}
+{% image greenweek_2012.jpg "Greenweek 2012" "Homepage of the Greenweek 2012 conference website" %}
 
-{% image greenweek_2010.jpg "Greenweek 2010" "Homepage of [greenweek 2010 conference website](http://ec.europa.eu/environment/archives/greenweek2010/index.html)" %}
+{% image greenweek_2010.jpg "Greenweek 2010" "Homepage of Greenweek" %}
+[Visit Greenweek 2010](http://ec.europa.eu/environment/archives/greenweek2010/index.html)
 
 ##Marie Curie Actions##
 
 Marie Curie Actions fellowships for researchers is a website where you will find practical information on each of the Marie Curie actions including guidance on how to apply for funding, information on progress of calls for proposals, evaluation and funding decisions.
 Creation of theme, and custom news slider with video player integration. Worked on additional page template designs.
 
-{% image marie_curie_actions.png "Marie Curie Actions" "Homepage of [Marie Curie Actions](http://ec.europa.eu/research/mariecurieactions/)" %}
+{% image marie_curie_actions.png "Marie Curie Actions" "Homepage of Marie Curie Actions" %}
+[Visit MCA](http://ec.europa.eu/research/mariecurieactions/)
