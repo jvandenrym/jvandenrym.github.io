@@ -7,8 +7,7 @@ layout: post
 ##Who is Andy Budd?##
 Andy Budd is design and user experience lead at [Clearleft](http://www.clearleft.com/) and author of the [Blogography](http://andybudd.com/) weblog. This interview I conducted for Fadtastic back in 2006. Almost a decade ago.
 
-***Is the profession of web designer moving more towards interaction design that is graphic design + information design + human-computer interaction***
-
+***Is the profession of web designer moving more towards interaction design that is graphic design + information design + human-computer interaction?***
 
 Andy: Most definitely. As the industry matures, website owners and users want more than just a pretty interface. Website owners want to differentiate their products and services from their competition by providing their customers with a better experience. Users want something that solves real problems in an enjoyable and easy to use way.
 
