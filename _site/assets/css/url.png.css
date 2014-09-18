@@ -1,0 +1,30 @@
+.icon--linkedin,
+html[data-useragent*=Trident] .page--default .icon--linkedin:after
+{
+  background-image: url('png.fallback/linkedin.png');
+  background-repeat: no-repeat;
+}
+
+.logo .logo__front,
+.head header .logo,
+.icon--logo,
+html[data-useragent*=Trident] .page--default .icon--logo:after
+{
+  background-image: url('png.fallback/logo.png');
+  background-repeat: no-repeat;
+}
+
+.icon--rss,
+html[data-useragent*=Trident] .page--default .icon--rss:after
+{
+  background-image: url('png.fallback/rss.png');
+  background-repeat: no-repeat;
+}
+
+.icon--twitter,
+html[data-useragent*=Trident] .page--default .icon--twitter:after
+{
+  background-image: url('png.fallback/twitter.png');
+  background-repeat: no-repeat;
+}
+
