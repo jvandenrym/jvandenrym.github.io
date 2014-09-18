@@ -342,11 +342,19 @@ module.exports = function(grunt) {
           dest: '_src/svg/output',
         }],
         options: {
-          datasvgcss: "/assets/css/svg.fallback.css",
-          cssprefix: '.icon--'
+          datasvgcss: '/assets/css/data.svg.css',
+          datapngcss: '/assets/css/data.png.css',
+          urlpngcss: '/assets/css/url.png.css',
+          pngpath: '/assets/css/png.fallback',
+          customselectors: 
+            {
+              "logo": [".logo .logo__front", ".head header .logo"],
+              "*": ["html[data-useragent*=Trident] .page--default .icon--$1:after",".icon--$1"]
+            },
+          template: 'grunticon.hbs'
+          }
         }
       }
-    }
   });
 
   // Compile JS & CSS, run watch to recompile on change
