@@ -116,7 +116,8 @@ module.exports = function(grunt) {
         'ff > 20',
         '> 1%',
         'ie 9',
-        'ie 10'],
+        'ie 10',
+        'ios 4'],
         diff: true
       },
       debug: {
