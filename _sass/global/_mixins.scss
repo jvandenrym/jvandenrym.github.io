@@ -18,7 +18,7 @@
       src: url('#{$path_to_font}/#{$font}?#iefix') format('embedded-opentype'), /* IE6-IE8 */
            url('#{$path_to_font}/#{$font}.woff') format('woff'), /* Modern Browsers */
            url('#{$path_to_font}/#{$font}.ttf')  format('truetype'), /* Safari, Android, iOS */
-           url('#{$path_to_font}/#{$font}.svg#svgFontName') format('svg'); /* Legacy iOS */
+           url('#{$path_to_font}/#{$font}.svg##{$font}') format('svg'); /* Legacy iOS */
     }
   }
 }
