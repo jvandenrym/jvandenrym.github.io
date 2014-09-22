@@ -213,7 +213,7 @@ module.exports = function(grunt) {
         '_includes/*.md',
         '_layouts/*.html',
         '_config.yml',
-        'blog_feed.xml',
+        '*.xml',
         '*.html',
         'debug/*'
         ],
