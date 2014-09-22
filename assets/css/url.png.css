@@ -1,30 +1,30 @@
-.icon--linkedin,
-html[data-useragent*=Trident] .page--default .icon--linkedin:after
+html[data-useragent*=Trident] .page--default .icon--linkedin:after,
+.icon--linkedin
 {
-  background-image: url('png.fallback/linkedin.png');
+  background-image: url('/assets/css/png.fallback/linkedin.png');
   background-repeat: no-repeat;
 }
 
 .logo .logo__front,
 .head header .logo,
-.icon--logo,
-html[data-useragent*=Trident] .page--default .icon--logo:after
+html[data-useragent*=Trident] .page--default .icon--logo:after,
+.icon--logo
 {
-  background-image: url('png.fallback/logo.png');
+  background-image: url('/assets/css/png.fallback/logo.png');
   background-repeat: no-repeat;
 }
 
-.icon--rss,
-html[data-useragent*=Trident] .page--default .icon--rss:after
+html[data-useragent*=Trident] .page--default .icon--rss:after,
+.icon--rss
 {
-  background-image: url('png.fallback/rss.png');
+  background-image: url('/assets/css/png.fallback/rss.png');
   background-repeat: no-repeat;
 }
 
-.icon--twitter,
-html[data-useragent*=Trident] .page--default .icon--twitter:after
+html[data-useragent*=Trident] .page--default .icon--twitter:after,
+.icon--twitter
 {
-  background-image: url('png.fallback/twitter.png');
+  background-image: url('/assets/css/png.fallback/twitter.png');
   background-repeat: no-repeat;
 }
 
