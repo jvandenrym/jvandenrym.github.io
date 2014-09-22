@@ -63,7 +63,6 @@
   font-family: OperatorLight;
   letter-spacing: 0.02em;
   font-size: 1.6rem;
-  border-radius: 50%;
   @include breakpoint($bp-med) {
     font-size: 2rem;
   }
