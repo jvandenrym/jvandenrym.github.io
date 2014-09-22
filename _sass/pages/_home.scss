@@ -63,6 +63,7 @@
   font-family: OperatorLight;
   letter-spacing: 0.02em;
   font-size: 1.6rem;
+  border-radius: 50%;
   @include breakpoint($bp-med) {
     font-size: 2rem;
   }
@@ -83,10 +84,7 @@
   *zoom: 1;
 }
 .logo .logo__back {
-  border-top-left-radius:50%;
-  border-top-right-radius:50%;
-  border-bottom-right-radius:50%;
-  border-bottom-left-radius:50%; 
+  border-radius: 50%; 
   background: #17806D;
   padding: 1em;
   *zoom: 1;
