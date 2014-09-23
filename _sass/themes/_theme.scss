@@ -95,7 +95,8 @@ figure a {
 
 .head header .logo {
   @extend %logo;
-  background-position: left center;
+  background-position: left top;
+  background-size: contain;
   padding-left: 1.2em;
   @include breakpoint($bp-med) {
     padding-left: 1.3em;
