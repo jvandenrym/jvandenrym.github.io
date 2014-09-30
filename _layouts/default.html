@@ -45,10 +45,7 @@
   {% if site.env == 'production' %}
   {% include google_analytics.html %}
   {% endif %}
-  <script src="/assets/js/grunticon.loader.js"></script>  
-  <script>
-  grunticon(["/assets/css/svg.fallback.css", "/assets/css/data.png.css", "/asset/css/icons.fallback.css"]);
-  </script>
+  {% include grunticon.html %}
 </head>
 <body>
   <a href="#main">skip to content</a>

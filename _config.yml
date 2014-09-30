@@ -41,22 +41,24 @@ highlighter: pygments
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [
-README.markdown, 
-package.json,
-bower.json,
-config.rb,
-grunt.js, 
-Gruntfile.js,
-Gruntfile.coffee, 
-node_modules, 
-bower_components,
-Gemfile.lock,
-Gemfile,
-README.md,
-app,
-blog.sublime-project,
-blog.sublime-workspace,
-config.rb']
+  README.markdown, 
+  package.json,
+  bower.json,
+  config.rb,
+  grunt.js, 
+  Gruntfile.js,
+  Gruntfile.coffee, 
+  node_modules, 
+  bower_components,
+  Gemfile.lock,
+  Gemfile,
+  README.md,
+  app,
+  blog.sublime-project,
+  blog.sublime-workspace,
+  config.rb,
+  grunticon.hbs'
+]
 
 assets:
   root_url: '/assets'

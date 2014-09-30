@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png">
   <link rel="apple-touch-icon-precomposed" href="/favicon-57.png">
   
-  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2014-09-16T12%3A44%3A28%2B02%3A00">
+  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2014-09-23T03%3A10%3A27%2B02%3A00">
   
   <!--[if lt IE 9]>
   <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -52,10 +52,14 @@
 
 </script>
   
-  <script src="/assets/js/grunticon.loader.js"></script>  
   <script>
-  grunticon(["/assets/css/svg.fallback.css", "/assets/css/data.png.css", "/asset/css/icons.fallback.css"]);
-  </script>
+/* grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. */
+window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")),o=function(o){var a=t.document.createElement("link"),r=t.document.getElementsByTagName("script")[0];a.rel="stylesheet",a.href=e[o&&n?0:o?1:2],a.media="only x",r.parentNode.insertBefore(a,r),setTimeout(function(){a.media="all"})},a=new t.Image;a.onerror=function(){o(!1)},a.onload=function(){o(1===a.width&&1===a.height)},a.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
+grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/url.png.css"]);
+</script>
+<noscript><link href="/assets/css/url.png.css" rel="stylesheet"></noscript>
+
+
 </head>
 <body>
   <a href="#main">skip to content</a>
@@ -112,96 +116,80 @@
         <h1>About</h1>
         </header>
         
-<h2>Professional life</h2>
+<h2 id="professional-life">Professional life</h2>
 
-<p>I am certified as a web designer since 2002.</p>
+<p>I am certified as a web designer since 2002. </p>
 
-<p>At my latest job at <a href="http://www.esn.eu/company">ESN</a> (European Services Network), a leading provider of multilingual, multi-channel, multimedia communication services to the European institutions. I worked there since 2008 as a web integrator and a front-end web developer where I got to work on many exciting projects for the European Commission and the Flemish Government.</p>
+<p>At my latest job at <a href="http://www.esn.eu/company">ESN</a> (European Services Network), a leading provider of multilingual, multi-channel, multimedia communication services to the European institutions. I worked there since 2008 as a web integrator and a front-end web developer where I got to work on many exciting projects for the European Commission and the Flemish Government. </p>
 
-<p>I dabble in user interface design, user experience, wire-framing and prototyping.
-I create mobile-friendly and responsive websites.
+<p>I dabble in user interface design, user experience, wire-framing and prototyping. 
+I create mobile-friendly and responsive websites. 
 I have a knack for accessibility, semantic mark-up.</p>
 
 <p>Experience with feature-driven development, <a href="http://www.allaboutagile.com/what-is-agile-10-key-principles/">Agile</a>, <a href="https://www.scrum.org/Resources/What-is-Scrum">SCRUM</a> and <a href="https://www.atlassian.com/software/jira/agile">JIRA</a>.
-Avid user of front-end tools like <a href="http://sass-lang.com/">SASS</a>, <a href="http://gruntjs.com/">Grunt</a>,... to speed-up, improve and organise workflow of a project. Embrace <abbr title="Keep it simple &amp; straightforward.">KISS</abbr> and <abbr title="Don't Repeat Yourself">DRY</abbr> principles.</p>
+Avid user of front-end tools like <a href="http://sass-lang.com/">SASS</a>, <a href="http://gruntjs.com/">Grunt</a>,… to speed-up, improve and organise workflow of a project. Embrace <abbr title="Keep it simple &amp; straightforward.">KISS</abbr> and <abbr title="Don't Repeat Yourself">DRY</abbr> principles.</p>
 
 <p>Follow all latest UI design trends, accessibility and emerging technologies. Find <a href="https://twitter.com/johanvdr">me</a> actively discussing any of these topics on Twitter.</p>
 
-<h2>Skills</h2>
+<h2 id="skills">Skills</h2>
 
-<h3>Web Stack</h3>
-
+<h3 id="web-stack">Web Stack</h3>
 <ul>
-<li><a href="https://www.linux.com/learn/new-user-guides/376-linux-is-everywhere-an-overview-of-the-linux-operating-system">Linux</a> (<a href="https://help.ubuntu.com/12.04/installation-guide/i386/what-is-ubuntu.html">Ubuntu</a>), <a href="https://help.ubuntu.com/community/UsingTheTerminal">Terminal</a></li>
-<li><a href="http://www.sublimetext.com/">Sublime</a> editor</li>
+  <li><a href="https://www.linux.com/learn/new-user-guides/376-linux-is-everywhere-an-overview-of-the-linux-operating-system">Linux</a> (<a href="https://help.ubuntu.com/12.04/installation-guide/i386/what-is-ubuntu.html">Ubuntu</a>), <a href="https://help.ubuntu.com/community/UsingTheTerminal">Terminal</a></li>
+  <li><a href="http://www.sublimetext.com/">Sublime</a> editor</li>
 </ul>
 
-
-<h3>Front-end tools</h3>
-
+<h3 id="front-end-tools">Front-end tools</h3>
 <ul>
-<li><abbr title="HyperText Markup Language">HTML 5</abbr> &amp; <abbr title="Cascading Stylesheets">CSS 3</abbr>: Selectors, Media Queries, <abbr title="Object-Oriented CSS">OOCSS</abbr>, <abbr title="Block, Element, Modifier">BEM</abbr>, <a href="http://amcss.github.io/">AM Modules for CSS</a></li>
-<li><abbr title="Extensible Hypertext Markup Language">XHTML 1</abbr>, <abbr title="Extensible Markup Language">XML 1</abbr></li>
-<li>CSS pre-processors (<abbr title="Syntactically Awesome Style Sheets">SASS</abbr>)</li>
-<li><abbr title="Scalable Vector Graphics">SVG</abbr></li>
-<li><a href="http://getbootstrap.com/">Bootstrap</a> framework</li>
-<li><a href="http://jquery.com/">Jquery</a>, <a href="http://mootools.net/">Mootools</a>, <a href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/">plain javascript</a></li>
-<li><a href="ttp://gruntjs.com/">Grunt</a> (node.js), <a href="https://angularjs.org/">Angular</a> JS (Routes)</li>
+  <li><abbr title="HyperText Markup Language">HTML 5</abbr> &amp; <abbr title="Cascading Stylesheets">CSS 3</abbr>: Selectors, Media Queries, <abbr title="Object-Oriented CSS">OOCSS</abbr>, <abbr title="Block, Element, Modifier">BEM</abbr>, <a href="http://amcss.github.io/">AM Modules for CSS</a></li>
+  <li><abbr title="Extensible Hypertext Markup Language">XHTML 1</abbr>, <abbr title="Extensible Markup Language">XML 1</abbr></li>
+  <li>CSS pre-processors (<abbr title="Syntactically Awesome Style Sheets">SASS</abbr>)</li>
+  <li><abbr title="Scalable Vector Graphics">SVG</abbr></li>
+  <li><a href="http://getbootstrap.com/">Bootstrap</a> framework</li>
+  <li><a href="http://jquery.com/">Jquery</a>, <a href="http://mootools.net/">Mootools</a>, <a href="http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/">plain javascript</a></li>
+  <li><a href="ttp://gruntjs.com/">Grunt</a> (node.js), <a href="https://angularjs.org/">Angular</a> JS (Routes)</li>
 </ul>
 
-
-<h3>Web Standards and Accessibility</h3>
-
+<h3 id="web-standards-and-accessibility">Web Standards and Accessibility</h3>
 <ul>
-<li><abbr title="World Wide Web Consortium">W3C</abbr> <a href="http://www.w3.org/standards/">standards</a></li>
-<li><abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications (standards suite)">WAI-ARIA</abbr></li>
-<li><a href="http://www.w3.org/TR/WCAG20/" title="Web Content Accessibility Guidelines">WCAG 2.0</a>, <a href="http://www.webaim.org/standards/508/checklist">Section 508</a> accessibility guidelines</li>
+  <li><abbr title="World Wide Web Consortium">W3C</abbr> <a href="http://www.w3.org/standards/">standards</a></li>
+  <li><abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications (standards suite)">WAI-ARIA</abbr></li>
+  <li><a href="http://www.w3.org/TR/WCAG20/" title="Web Content Accessibility Guidelines">WCAG 2.0</a>, <a href="http://www.webaim.org/standards/508/checklist">Section 508</a> accessibility guidelines</li>
 </ul>
 
-
-<h3>Visual Design Tools</h3>
-
+<h3 id="visual-design-tools">Visual Design Tools</h3>
 <ul>
-<li>Photoshop, Fireworks, Gimp</li>
-<li>Illustrator, Inkscape</li>
-<li>Wire-framing and proto-typing: <a href="http://www.mindmeister.com/">Mindmeister</a>, <a href="http://www.axure.com/">Axure</a></li>
-<li>Design in the browser</li>
+  <li>Photoshop, Fireworks, Gimp</li>
+  <li>Illustrator, Inkscape</li>
+  <li>Wire-framing and proto-typing: <a href="http://www.mindmeister.com/">Mindmeister</a>, <a href="http://www.axure.com/">Axure</a></li>
+  <li>Design in the browser</li>
 </ul>
 
-
-<h3>Content Management Systems</h3>
-
+<h3 id="content-management-systems">Content Management Systems</h3>
 <ul>
-<li>Drupal: +5 years of experience, participate in the <a href="https://www.drupal.org/user/2514444">Drupal community</a>, Drush, build custom themes (front-end and admin themes) with emphasis on Front-end performance , Drupal Coding Standards, Panels, Context, Views, phpTemplate (<abbr title="Hypertext Pre-processor">PHP</abbr> &amp; Drupal API), Composer</li>
-<li>In-house ColdFusion CMS: building theme with Coldfusion and XML, static HTML site generator.</li>
-<li>Jekyll: liquid template and Ruby on Rails, static HTML site generator.</li>
+  <li>Drupal: +5 years of experience, participate in the <a href="https://www.drupal.org/user/2514444">Drupal community</a>, Drush, build custom themes (front-end and admin themes) with emphasis on Front-end performance , Drupal Coding Standards, Panels, Context, Views, phpTemplate (<abbr title="Hypertext Pre-processor">PHP</abbr> &amp; Drupal API), Composer</li>
+  <li>In-house ColdFusion CMS: building theme with Coldfusion and XML, static HTML site generator.</li>
+  <li>Jekyll: liquid template and Ruby on Rails, static HTML site generator.</li>
 </ul>
 
-
-<h3>Software Development</h3>
-
+<h3 id="software-development">Software Development</h3>
 <ul>
-<li>Agile: Scrum. Feature-driven development in a team of front-end developers, back-end developers and UX designers together with the Product Owner and Scrum Master . Daily stand-up meetings.</li>
-<li>Project-based (waterfall)</li>
-<li>Peer review, Quality control and - Assesment.</li>
+  <li>Agile: Scrum. Feature-driven development in a team of front-end developers, back-end developers and UX designers together with the Product Owner and Scrum Master . Daily stand-up meetings.</li>
+  <li>Project-based (waterfall)</li>
+  <li>Peer review, Quality control and - Assesment.</li>
 </ul>
 
-
-<h3>Unit testing</h3>
-
+<h3 id="unit-testing">Unit testing</h3>
 <ul>
-<li>Selenium and Browser Stack (screenshot diffs UI)</li>
+  <li>Selenium and Browser Stack (screenshot diffs UI)</li>
 </ul>
 
-
-<h3>Languages</h3>
-
+<h3 id="languages">Languages</h3>
 <ul>
-<li>Dutch (mother tongue)</li>
-<li>English (Full professional proficiency)</li>
-<li>French (Professional proficiency)</li>
+  <li>Dutch (mother tongue)</li>
+  <li>English (Full professional proficiency)</li>
+  <li>French (Professional proficiency)</li>
 </ul>
-
 
       </article>
     </main>
@@ -213,7 +201,7 @@ Avid user of front-end tools like <a href="http://sass-lang.com/">SASS</a>, <a h
 </div>
 </div>
   
-  <script src="/assets/js/app.min.js?bust=2014-09-16T12%3A44%3A28%2B02%3A00"></script>
+  <script src="/assets/js/app.min.js?bust=2014-09-23T03%3A10%3A27%2B02%3A00"></script>
   
 </body>
 </html>

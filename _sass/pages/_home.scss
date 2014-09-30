@@ -60,7 +60,7 @@
 .logo {
   cursor: pointer;
   color: lighten($text-color,30%);
-  font-family: "operator-light-webfont";
+  font-family: OperatorLight;
   letter-spacing: 0.02em;
   font-size: 1.6rem;
   @include breakpoint($bp-med) {

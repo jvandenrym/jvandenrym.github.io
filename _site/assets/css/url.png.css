@@ -1,0 +1,30 @@
+html[data-useragent*=Trident] .page--default .icon--linkedin:after,
+.icon--linkedin
+{
+  background-image: url('/assets/css/png.fallback/linkedin.png');
+  background-repeat: no-repeat;
+}
+
+.logo .logo__front,
+.head header .logo,
+html[data-useragent*=Trident] .page--default .icon--logo:after,
+.icon--logo
+{
+  background-image: url('/assets/css/png.fallback/logo.png');
+  background-repeat: no-repeat;
+}
+
+html[data-useragent*=Trident] .page--default .icon--rss:after,
+.icon--rss
+{
+  background-image: url('/assets/css/png.fallback/rss.png');
+  background-repeat: no-repeat;
+}
+
+html[data-useragent*=Trident] .page--default .icon--twitter:after,
+.icon--twitter
+{
+  background-image: url('/assets/css/png.fallback/twitter.png');
+  background-repeat: no-repeat;
+}
+
