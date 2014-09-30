@@ -57,8 +57,7 @@ exclude: [
   blog.sublime-project,
   blog.sublime-workspace,
   config.rb,
-  grunticon.hbs,
-  CNAME
+  grunticon.hbs
 ]
 
 assets:
