@@ -17,4 +17,3 @@ _src/
 debug
 build
 Gemfile.lock
-.nvmrc

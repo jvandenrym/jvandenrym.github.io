@@ -193,7 +193,7 @@ figure {
   text-align: center;
   display: inline-block;
   @include breakpoint($bp-med) {
-    text-align: right;
+    float: right;
   }
 }
 .social li {
@@ -265,4 +265,11 @@ p code {
   border:1px solid lighten($text-color, 30%);
   font-family: $font-mono;
   color: $link-color;
+}
+
+// inline images
+.inline-image {
+  @include breakpoint($bp-med) {
+    @include span(6);
+  } 
 }
