@@ -11,7 +11,10 @@ It is a widely adopted UI design pattern that already is in use long before mobi
 
 {% image xerox_big.png "Xerox Star burger icon" "Xerox Star burger icon" %}
 
-The burger icon as a design pattern was picked again when it was used in mobile apps and found its way to responsive web design.
+The burger icon as a design pattern was picked up again when it was used in mobile apps and found its way to responsive web design and web design in general.
+
+On this [website](http://www.wbw.ch/) the entire menu is hidden under a burger icon on the desktop also on larger viewport sizes. Is this a content first strategy but then where is the wayfinding.
+There must be links in that hidden navigation that are important enough to be visible instead of hidden. This question is often overlooked.
 
 {% image burger_desktop.jpg "Example of burger icon on desktop" "Example of burger icon on desktop" %}
 
