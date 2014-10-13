@@ -9,6 +9,8 @@ It's a possible solution to a design problem. The viewport on mobile devices esp
 
 It is a widely adopted UI design pattern that already is in use long before mobile and responsive even existed. Xerox Star (1970s) used it for contextual menus already then.
 
+{% image xerox_big.png "Xerox Star burger icon" "Xerox Star burger icon" %}
+
 The burger icon as a design pattern was picked again when it was used in mobile apps and found its way to responsive web design.
 
 {% image burger_desktop.jpg "Example of burger icon on desktop" "Example of burger icon on desktop" %}
@@ -16,7 +18,7 @@ The burger icon as a design pattern was picked again when it was used in mobile 
 ##Navigation and UI
 There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not significant enough to associate it with navigational elements. A [usability study](http://exisweb.net/menu-eats-hamburger) was conducted to find out if people would prefer the burger icon or a textual 'MENU' link. A textual label 'MENU' would aid to clarify the meaning of the burger icon.
 
-In any case [hiding navigation](http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/) behind a burger icon could prove detrimental to the end-user's perception of what the site or app has to offer. There is always a trade-off to think about. 
+In any case [hiding navigation](http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/) behind a burger icon could prove detrimental to the end-user's perception of what the site or app has to offer. There is always a trade-off to think about.
 
 Normally the logo is always on the left but on many sites the burger icon appears both left and right on the top of the viewport. What is better left or right? It depends on the design and has not been standardized. It has little of influence.
 
