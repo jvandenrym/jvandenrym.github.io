@@ -10,23 +10,25 @@
         <title>The meat of the burger icon</title>
         <description>&lt;h2&gt;Why hamburger icons?&lt;/h2&gt;
 
-&lt;p&gt;The viewport on mobile devices especially smart phones in portrait mode needs carefully managing of the screen real estate. Navigation lists can be too wide to fit in the horizontal available space of the viewport. Add other elements like logo and search form and the available space is little on smaller viewport sizes like tablets and mobile phones. The hamburger UI design pattern tries to solve that. The navigation that would not fit otherwise is set to a hidden state. The hamburger icon controls the visible state of the navigation.&lt;/p&gt;
+&lt;p&gt;It&#39;s a possible solution to a design problem. The viewport on mobile devices especially smart phones and tablets in portrait mode needs carefully managing of the screen real estate. Navigation lists can be too wide to fit in the horizontal available space of the viewport. Add other elements like logo and search form and the available space is little on smaller viewport sizes like tablets and mobile phones. The hamburger UI design pattern tries to solve that. The navigation that would not fit otherwise is set to a hidden state. The hamburger icon controls the visible state of the navigation. But is it any good?&lt;/p&gt;
 
-&lt;p&gt;The burger icon design pattern was already used long before mobile and responsive got into the picture. Xerox Star (1970s) used it for contextual menus already then.&lt;/p&gt;
+&lt;p&gt;It is a widely adopted UI design pattern that already is in use long before mobile and responsive even existed. Xerox Star (1970s) used it for contextual menus already then.&lt;/p&gt;
 
-&lt;p&gt;The use of the burger icon (responsive menu) as a design pattern emerged from mobile and found its way to the desktop as well.&lt;/p&gt;
+&lt;p&gt;The burger icon as a design pattern was picked again when it was used in mobile apps and found its way to responsive web design.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/burger_desktop.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of burger icon on desktop&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;h2&gt;Navigation and UI&lt;/h2&gt;
 
-&lt;p&gt;There have been studies that question the efficiency of the burger icon as a design pattern. It would be not significant enough to associate it with navigational elements. A &lt;a href=&quot;http://exisweb.net/menu-eats-hamburger&quot;&gt;usability study&lt;/a&gt; was conducted to find out how people would react to the burger icon. A textual label &#39;MENU&#39; would aid to clarify the meaning of the burger icon.&lt;/p&gt;
+&lt;p&gt;There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not significant enough to associate it with navigational elements. A &lt;a href=&quot;http://exisweb.net/menu-eats-hamburger&quot;&gt;usability study&lt;/a&gt; was conducted to find out if people would prefer the burger icon or a textual &#39;MENU&#39; link. A textual label &#39;MENU&#39; would aid to clarify the meaning of the burger icon.&lt;/p&gt;
 
-&lt;p&gt;In any case &lt;a href=&quot;http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/&quot;&gt;hiding navigation&lt;/a&gt; behind a burger icon could prove detrimental to the end-user&#39;s perception of what the site or app has to offer.&lt;/p&gt;
+&lt;p&gt;In any case &lt;a href=&quot;http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/&quot;&gt;hiding navigation&lt;/a&gt; behind a burger icon could prove detrimental to the end-user&#39;s perception of what the site or app has to offer. There is always a trade-off to think about.&lt;/p&gt;
 
-&lt;p&gt;The icon appears both left and right on the top of the viewport. What is better left or right? It depends on the design and has not been standardized. It has little of influence.&lt;/p&gt;
+&lt;p&gt;Normally the logo is always on the left but on many sites the burger icon appears both left and right on the top of the viewport. What is better left or right? It depends on the design and has not been standardized. It has little of influence.&lt;/p&gt;
 
-&lt;p&gt;Providing a animated current state change proves very effective. As showcased here by using &lt;a href=&quot;http://sarasoueidan.com/blog/navicon-transformicons/&quot;&gt;CSS 3 transformations&lt;/a&gt; that indicate the state change.&lt;/p&gt;
+&lt;p&gt;In some cases it does work very well but all depends on the complexity and scale of the data presented.&lt;/p&gt;
+
+&lt;p&gt;To provide a better user interaction adding a animated current state change proves very effective. As showcased here by using &lt;a href=&quot;http://sarasoueidan.com/blog/navicon-transformicons/&quot;&gt;CSS 3 transformations&lt;/a&gt; that indicate state change.&lt;/p&gt;
 
 &lt;div class=&quot;inline-image&quot;&gt;
 &lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/modal.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of a modal-like pattern&lt;/figcaption&gt;&lt;/figure&gt;

@@ -5,22 +5,24 @@ layout: post
 ---
 
 ##Why hamburger icons?
-The viewport on mobile devices especially smart phones in portrait mode needs carefully managing of the screen real estate. Navigation lists can be too wide to fit in the horizontal available space of the viewport. Add other elements like logo and search form and the available space is little on smaller viewport sizes like tablets and mobile phones. The hamburger UI design pattern tries to solve that. The navigation that would not fit otherwise is set to a hidden state. The hamburger icon controls the visible state of the navigation.
+It's a possible solution to a design problem. The viewport on mobile devices especially smart phones and tablets in portrait mode needs carefully managing of the screen real estate. Navigation lists can be too wide to fit in the horizontal available space of the viewport. Add other elements like logo and search form and the available space is little on smaller viewport sizes like tablets and mobile phones. The hamburger UI design pattern tries to solve that. The navigation that would not fit otherwise is set to a hidden state. The hamburger icon controls the visible state of the navigation. But is it any good?
 
-The burger icon design pattern was already used long before mobile and responsive got into the picture. Xerox Star (1970s) used it for contextual menus already then.
+It is a widely adopted UI design pattern that already is in use long before mobile and responsive even existed. Xerox Star (1970s) used it for contextual menus already then.
 
-The use of the burger icon (responsive menu) as a design pattern emerged from mobile and found its way to the desktop as well.
+The burger icon as a design pattern was picked again when it was used in mobile apps and found its way to responsive web design.
 
 {% image burger_desktop.jpg "Example of burger icon on desktop" "Example of burger icon on desktop" %}
 
 ##Navigation and UI
-There have been studies that question the efficiency of the burger icon as a design pattern. It would be not significant enough to associate it with navigational elements. A [usability study](http://exisweb.net/menu-eats-hamburger) was conducted to find out how people would react to the burger icon. A textual label 'MENU' would aid to clarify the meaning of the burger icon.
+There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not significant enough to associate it with navigational elements. A [usability study](http://exisweb.net/menu-eats-hamburger) was conducted to find out if people would prefer the burger icon or a textual 'MENU' link. A textual label 'MENU' would aid to clarify the meaning of the burger icon.
 
-In any case [hiding navigation](http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/) behind a burger icon could prove detrimental to the end-user's perception of what the site or app has to offer. 
+In any case [hiding navigation](http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/) behind a burger icon could prove detrimental to the end-user's perception of what the site or app has to offer. There is always a trade-off to think about. 
 
-The icon appears both left and right on the top of the viewport. What is better left or right? It depends on the design and has not been standardized. It has little of influence.
+Normally the logo is always on the left but on many sites the burger icon appears both left and right on the top of the viewport. What is better left or right? It depends on the design and has not been standardized. It has little of influence.
 
-Providing a animated current state change proves very effective. As showcased here by using [CSS 3 transformations](http://sarasoueidan.com/blog/navicon-transformicons/) that indicate the state change. 
+In some cases it does work very well but all depends on the complexity and scale of the data presented.
+
+To provide a better user interaction adding a animated current state change proves very effective. As showcased here by using [CSS 3 transformations](http://sarasoueidan.com/blog/navicon-transformicons/) that indicate state change. 
 
 <div class="inline-image">
 {% image modal.jpg "Example of a modal-like pattern" "Example of a modal-like pattern" %}
