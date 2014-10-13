@@ -7,7 +7,7 @@ layout: post
 ##Why hamburger icons?
 It's a possible solution to a design problem. The viewport on mobile devices especially smart phones and tablets in portrait mode needs carefully managing of the screen real estate. Navigation lists can be too wide to fit in the horizontal available space of the viewport. Add other elements like logo and search form and the available space is little on smaller viewport sizes like tablets and mobile phones. The hamburger UI design pattern tries to solve that. The navigation that would not fit otherwise is set to a hidden state. The hamburger icon controls the visible state of the navigation. But is it any good?
 
-It is a widely adopted UI design pattern that already is in use long before mobile and responsive even existed. Xerox Star (1970s) used it for contextual menus already then.
+It is a widely adopted UI design pattern that already is in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then.
 
 {% image xerox_big.png "Xerox Star burger icon" "Xerox Star burger icon" %}
 
