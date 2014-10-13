@@ -31,4 +31,4 @@ To provide a better user interaction adding a animated current state change prov
 {% image modal_active.jpg "Example of a modal-like pattern" "Example of a modal-like  pattern (active state)" %}
 </div>
 
-Rethinking the design pattern is always possible in the near future. Not every project is put under the scrutiny of A/B testing. Often existing patterns are applied without evaluating first if it is the right design decision.
+Rethinking the design pattern is always possible in the near future. Not every project is placed under the scrutiny of A/B testing. Often existing patterns are applied without evaluating first if it is the right design decision.
