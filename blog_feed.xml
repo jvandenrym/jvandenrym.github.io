@@ -18,7 +18,7 @@
 
 &lt;p&gt;The burger icon as a design pattern was picked up again when it was used in mobile apps and found its way to responsive web design and web design in general.&lt;/p&gt;
 
-&lt;p&gt;On this &lt;a href=&quot;http://www.wbw.ch/&quot;&gt;website&lt;/a&gt; the entire menu is hidden under a burger icon on the desktop also on larger viewport sizes. If this is a Content First strategy but then where is the wayfinding.
+&lt;p&gt;On this &lt;a href=&quot;http://www.wbw.ch/&quot;&gt;website&lt;/a&gt; the entire menu is hidden under a burger icon on the desktop also on larger viewport sizes. If this is a Content First strategy but then where is the wayfinding?
 There must be links in that hidden navigation that are important enough to be visible instead of hidden. This question is often overlooked.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/burger_desktop.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of burger icon on desktop&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
