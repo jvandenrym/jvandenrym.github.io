@@ -1,5 +1,5 @@
 ---
-title: Andy budd about user experience
+title: Andy Budd about user experience
 teaser: Interview with Andy Budd about user experience
 layout: post
 ---

@@ -2,6 +2,20 @@
   display: inline-block;
   border: none;  
 }
+
+.post header h1 {
+  margin-bottom: 0;
+}
+.post header {
+  margin-bottom: 0.5em;
+}
+
+.date {
+  font-size: 0.85em;
+  color: lighten($text-color, 5%);
+}
+
+// Footer.
 footer {
   padding-top: 1em;
   padding-bottom: 0.5em;

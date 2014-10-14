@@ -1,37 +1,45 @@
 ---
 layout: default
 ---
- <div class="page page--default">
-  <div class="head">
-    <header>
-      <a href="/">
-        <h1 class="logo">{{ site.name }}<span>Thoughts about code and design.</span></h1>
-      </a>
-    </header>
-    {% include navigation.html %}
-    {% include social.html %}
-  </div>
-  <div class="main">
-    <main role="main" id="main">
-      <article class="post">
-        <header>
-          <h1>{{ page.title }}</h1>
-        </header>
-        {{ content }}
-      </article>
-      <nav class="page-navigation" aria-label="blog posts navigation" role="navigation">
-        <div>
-        {% if page.next.url %}
-        <a href="{{page.next.url}}" title="Newer Post:
+<div class="page page--default">
+<div class="head">
+<header>
+<a href="/">
+<h1 class="logo">{{ site.name }}<span>Thoughts about code and design.</span></h1>
+</a>
+</header>
+{% include navigation.html %}
+{% include social.html %}
+</div>
+<div class="main">
+<main role="main" id="main">
+<article class="post">
+<header>
+<h1>{{ page.title }}</h1>
+<div itemscope itemtype="http://schema.org/Article">
+<time itemprop="datePublished" datetime="{{ page.date |  date: "%F" }}" class="date">
+Published: {{ page.date | date: "%d %b %Y"}}
+</time>
+<time itemprop="dateModified" datetime="{{ page.last_modified_at  | date: "%" }}" class="date">
+Last update: {{ page.last_modified_at | date: "%d %b %Y" }}
+</time>
+</div>
+</header>
+{{ content }}
+</article>
+<nav class="page-navigation" aria-label="blog posts navigation" role="navigation">
+<div>
+{% if page.next.url %}
+<a href="{{page.next.url}}" title="Newer Post:
 {{page.next.title}}" class="page-navigation__link page-navigation__link--right" rel="next">&larr; {{page.next.title}}</a>
-      {% endif %}
-       {% if page.previous.url %}
-        <a href="{{page.previous.url}}" title="Older Post:
+{% endif %}
+{% if page.previous.url %}
+<a href="{{page.previous.url}}" title="Older Post:
 {{page.previous.title}}" class="page-navigation__link page-navigation__link--left" rel="prev">{{page.previous.title}} &rarr;</a>
-        {% endif %} 
-        </div>
-      </nav> 
-    </main>
-  </div>
-  {% include footer.html %}
+{% endif %} 
+</div>
+</nav> 
+</main>
+</div>
+{% include footer.html %}
 </div>

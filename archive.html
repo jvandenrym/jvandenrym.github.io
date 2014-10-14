@@ -23,9 +23,11 @@ title: Archive
   {% endif %}
   {% endunless %}
   <li>
-<time datetime="{{ post.date | date: "%Y-%m-%d" }}" class="date">
-{{ post.date | date: "%-d %B"}}
-</time>
+<div itemscope itemtype="http://schema.org/Article">
+  <time itemprop="datePublished" datetime="{{ post.date | date: "%Y-%m-%d" }}" class="date">
+    {{ post.date | date: "%-d %B"}}
+  </time>
+</div>
 &rarr;
 <a href="{{ post.url }}/">{{ post.title }}</a>
 </li>

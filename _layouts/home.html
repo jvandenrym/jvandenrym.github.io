@@ -32,9 +32,11 @@ layout: default
         <a href="{{ root_url }}{{ post.url }}">
           <h1>{% if post.title %}{{ post.title }}{% endif %}</h1>
         </a>
-        <time datetime="{{ post.date |  date: "%F" }}" class="date">
-        {{ post.date | date: "%d %b %Y"}}
-        </time>
+        <div itemscope itemtype="http://schema.org/Article">
+          <time itemprop="datePublished" datetime="{{ post.date |  date: "%F" }}" class="date">
+            {{ post.date | date: "%d %b %Y"}}
+          </time>
+        </div>
       </header>
       <div class="entry">
         {% if post.teaser %}<p>{{ post.teaser }}</p>{% endif %}
