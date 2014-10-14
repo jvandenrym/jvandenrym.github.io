@@ -7,6 +7,78 @@
 body, header h1 span {
    font-family: quote(map-fetch($fonts, selectors body)), $font-sans;
 }
+h1, .h1 {
+    margin-bottom: emRhythm(4, $ms-up2); // [1]
+    @include setType(6, $ms-up2); // [2]
+
+    @media (min-width: $bp-med) {
+      // [3]
+      margin-bottom: emRhythm(4, $ms-up3); // [4]
+      @include setType(8, $ms-up3); // [5]
+    }
+
+    @media (min-width: $bp-large-2) {
+      margin-bottom: emRhythm(4, $ms-up4);
+      @include setType(12, $ms-up4);
+    }
+  }
+
+  h2, .h2 {
+    margin-bottom: emRhythm(4, $ms-up1);
+    @include setType(5, $ms-up1);
+
+    @media (min-width: $bp-med) {
+      margin-bottom: emRhythm(4, $ms-up2);
+      @include setType(6, $ms-up2)
+    }
+
+    @media (min-width: $bp-large-2) {
+      margin-bottom: emRhythm(4, $ms-up3);
+      @include setType(8, $ms-up3);
+    }
+  }
+
+  h3, .h3 {
+    margin-bottom: emRhythm(4, $ms-up1);
+    @include setType(5, $ms-up1);
+
+    @media (min-width: $bp-large-2) {
+      margin-bottom: emRhythm(4, $ms-up2);
+      @include setType(6, $ms-up2);
+    }
+  }
+
+  h4, .h4 {
+    margin-bottom: emRhythm(4, $ms-up1);
+    @include setType(5, $ms-up1);
+  }
+
+  h5, .h5,
+  h6, .h6 {
+    margin-bottom: emRhythm(4);
+    @include setType(4);
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: emRhythm(4);
+    padding-top: 0;
+    padding-bottom: 0;
+   // max-width: emRhythm(96);
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    word-wrap: break-word;
+
+    @media (min-width: $bp-med) {
+      @if $paragraph-justify {
+        text-align: justify;
+      }
+    }
+  }
+
 #{headings()} {
   font-family: quote(map-fetch($fonts, selectors headings)), $font-sans;
   font-weight: normal;

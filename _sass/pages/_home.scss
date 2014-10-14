@@ -19,11 +19,11 @@
 .page--home {
   .logo {
     z-index: 1000;
-    width: 16rem;
-    height: 16rem;
+    width: 13rem;
+    height: 13rem;
       @include breakpoint($bp-med) {
-        width: 20rem;
-        height: 20rem;
+        width: 17rem;
+        height: 17rem;
       }
       margin: auto;
       position: relative;
@@ -62,9 +62,9 @@
   color: lighten($text-color,30%);
   font-family: OperatorLight;
   letter-spacing: 0.02em;
-  font-size: 1.6rem;
-  @include breakpoint($bp-med) {
-    font-size: 2rem;
+  font-size: 1.3rem;
+  @include breakpoint($bp-med-2) {
+    font-size: 1.6rem;
   }
   line-height: 1.2em;
   text-align: center;
@@ -95,9 +95,9 @@
 
 .logo--wrap {
       display: table;
-      height: 14rem;
+      height: 12rem;
       @include breakpoint($bp-med) {
-        height: 18rem;
+        height: 15rem;
       }
     }
 .logo--vcenter {
