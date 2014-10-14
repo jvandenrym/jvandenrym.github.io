@@ -21,7 +21,7 @@ There must be links in that hidden navigation that are important enough to be vi
 {% image burger_desktop.jpg "Example of burger icon on desktop" "Example of burger icon on desktop" %}
 
 ##Navigation and UI
-There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not qualify sufficiently as a signifier in order to associate it with navigational elements. A [usability study from exisweb](http://exisweb.net/menu-eats-hamburger) was conducted to find out if people would prefer the burger icon or a textual 'MENU' link. A textual label 'MENU' would aid to clarify the meaning of the burger icon. This indicates that the icon does not stand on its own as a visual cue.
+There have been UX studies that question the efficiency of the burger icon as a design pattern. It would not qualify sufficiently as a signifier in order to associate it with navigational elements. A [usability study from exisweb](http://exisweb.net/menu-eats-hamburger) was conducted to find out if people would prefer the burger icon or a textual 'MENU' link. A textual label 'MENU' would aid to clarify the meaning of the burger icon. This indicates that the icon does not stand on its own as a visual cue.
 
 ###Further reading
 [usability study on burger and navicons](http://www.peakusability.com.au/articles/mobile-ux-part-1-menu-burgers-and-navicons)
