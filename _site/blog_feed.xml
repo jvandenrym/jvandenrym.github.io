@@ -26,7 +26,11 @@ There must be links in that hidden navigation that are important enough to be vi
 
 &lt;h2&gt;Navigation and UI&lt;/h2&gt;
 
-&lt;p&gt;There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not qualify sufficiently as a signifier in order to associate it with navigational elements. A &lt;a href=&quot;http://exisweb.net/menu-eats-hamburger&quot;&gt;usability study&lt;/a&gt; was conducted to find out if people would prefer the burger icon or a textual &#39;MENU&#39; link. A textual label &#39;MENU&#39; would aid to clarify the meaning of the burger icon. This indicates that the icon does not stand on its own as a visual cue.&lt;/p&gt;
+&lt;p&gt;There have been UX studies that question the efficiency of the burger icon as a design pattern. It would be not qualify sufficiently as a signifier in order to associate it with navigational elements. A &lt;a href=&quot;http://exisweb.net/menu-eats-hamburger&quot;&gt;usability study from exisweb&lt;/a&gt; was conducted to find out if people would prefer the burger icon or a textual &#39;MENU&#39; link. A textual label &#39;MENU&#39; would aid to clarify the meaning of the burger icon. This indicates that the icon does not stand on its own as a visual cue.&lt;/p&gt;
+
+&lt;h3&gt;Further reading&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.peakusability.com.au/articles/mobile-ux-part-1-menu-burgers-and-navicons&quot;&gt;usability study on burger and navicons&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;In any case &lt;a href=&quot;http://thenextweb.com/dd/2014/04/08/ux-designers-side-drawer-navigation-costing-half-user-engagement/&quot;&gt;hiding navigation&lt;/a&gt; behind a burger icon could prove detrimental to the end-user&#39;s perception of what the site or app has to offer. There is always a trade-off to think about.&lt;/p&gt;
 
