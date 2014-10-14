@@ -77,7 +77,10 @@ figure a {
       text-align: left;
     }
     h1 {
-      @include setType(6, $ms-up2);
+      @include setType(4, $ms-up1);
+      @include breakpoint($bp-med) {
+        @include setType(6, $ms-up2);
+      }
       margin: 0;
       span {
         @extend %screenreader;

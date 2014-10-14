@@ -45,6 +45,7 @@ body {
     [role=navigation] {
       @include breakpoint($bp-med) {
         @include span(3 at 7);
+        padding-right: 0 !important;
       }
     }
     .social {
