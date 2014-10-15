@@ -71,6 +71,7 @@ h1, .h1 {
     -o-hyphens: auto;
     hyphens: auto;
     word-wrap: break-word;
+    line-height: 1.5;
 
     @media (min-width: $bp-med) {
       @if $paragraph-justify {
