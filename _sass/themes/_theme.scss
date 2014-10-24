@@ -43,27 +43,44 @@
 body {
   color: shade($text-color, 20%);
 }
+// extend
+%link {
+  background: $link-hover;
+  content: "";
+  height: 2px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+  width: 100%;
+}
+%link-active {
+  opacity: 1;
+  transform: translateY(0px);
+}
 
 // links
 a {
   color:  $link-color;
   text-decoration: none;
+  position: relative;
   &:hover, &:focus {
     color:  $link-hover;
+    text-decoration: none;
+  }
+  &:after {
+    @extend %link;
+  }
+  &:hover:after {
+    @extend %link-active;
   }
 }
-
-.entry a,
-.read-more a,
-main > p a,
-article > p a,
-section#archive a,
-figure a {
-  border-bottom: 1px solid $link-color;
-  &:hover, &:focus {
-    border-color: $link-hover;
-    background-color: lighten($link-hover, 60%);
-  }
+header a:after,
+.icon:after {
+  transition: none;
+  background: none;
 }
 
 // header
@@ -77,8 +94,8 @@ figure a {
       text-align: left;
     }
     h1 {
-      @include setType(4, $ms-up1);
-      @include breakpoint($bp-med) {
+      @include setType(6, $ms-up1);
+      @include breakpoint($bp-med-2) {
         @include setType(6, $ms-up2);
       }
       margin: 0;
@@ -86,10 +103,9 @@ figure a {
         @extend %screenreader;
         @include setType(2, $ms-down2);
         color: $text-color;
-        padding-left: 1.2em;
+        padding-left: 1.3em;
         @include breakpoint($bp-large-2) {
           @include screenreader-revert();
-          padding-left: 2.1em;
         }
       }
     }
@@ -100,9 +116,9 @@ figure a {
   @extend %logo;
   background-position: left top;
   background-size: contain;
-  padding-left: 1.2em;
+  padding-left: 1.35em;
   @include breakpoint($bp-med) {
-    padding-left: 1.3em;
+    padding-left: 2.1em;
   }
 }
 
@@ -129,6 +145,12 @@ figure a {
     $margin: 1em
   );
 }
+.b-navigation__link {
+  text-transform: uppercase;
+  position: relative;
+}
+
+
 
 // posts
 .main > main {
@@ -211,9 +233,9 @@ figure {
   border-radius: 50%;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 1rem auto;
-  width: 2rem;
-  height: 2rem;
+  background-size: 0.75rem auto;
+  width: 1.5rem;
+  height: 1.5rem;
   transition:all 0.3s linear;
   position: relative;
 
@@ -274,5 +296,6 @@ p code {
 .inline-image {
   @include breakpoint($bp-med) {
     @include span(6);
+    padding-left: 0;
   } 
 }

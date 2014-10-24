@@ -8,6 +8,7 @@
   h1 {
     text-align: center;
     color: inherit;
+    padding: 0 1.6em;
   }
   span {
     display: block;
@@ -22,8 +23,8 @@
     width: 13rem;
     height: 13rem;
       @include breakpoint($bp-med) {
-        width: 17rem;
-        height: 17rem;
+        width: 15rem;
+        height: 15rem;
       }
       margin: auto;
       position: relative;
@@ -62,11 +63,11 @@
   color: lighten($text-color,30%);
   font-family: OperatorLight;
   letter-spacing: 0.02em;
-  font-size: 1.3rem;
+  font-size: 1rem;
   @include breakpoint($bp-med-2) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
-  line-height: 1.2em;
+  line-height: 1rem;
   text-align: center;
   margin: 0;
 }
@@ -85,7 +86,7 @@
 .logo .logo__back {
   border-radius: 50%; 
   background: #17806D;
-  padding: 1em;
+  padding: 1.5em;
   *zoom: 1;
 }
 .logo .logo__back ,
@@ -95,9 +96,9 @@
 
 .logo--wrap {
       display: table;
-      height: 12rem;
+      height: 9rem;
       @include breakpoint($bp-med) {
-        height: 15rem;
+        height: 12rem;
       }
     }
 .logo--vcenter {

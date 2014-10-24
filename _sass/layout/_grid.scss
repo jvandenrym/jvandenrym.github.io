@@ -39,58 +39,60 @@ body {
   .head {
     header {
       @include breakpoint($bp-med) {
-        @include span(6);
+        @include span(5);
+        padding-left: 0 !important;
       }
     }
     [role=navigation] {
       @include breakpoint($bp-med) {
-        @include span(3 at 7);
-        padding-right: 0 !important;
+        @include span(5 at 6);
+        padding: 0 !important;
       }
     }
     .social {
+      padding: 0 !important;
       @include breakpoint($bp-med) {
-        @include span(3 at 10);
+        @include span(2 at 8);
       }
     }  
   }
   .intro {
     margin: 0 0 0.5em 0;
     @include breakpoint($bp-med) {
-      @include span(6);
+      @include span(5);
+      padding-left: 0;
     }
   }
   main {
     @include breakpoint($bp-med) {
-      @include span(6 at 7);
+      @include span(7 at 6);
+      padding-left: 0;
     }
   }
 }
 
 // default page
 .page--default {
-  .head header {
+  .head > header {
     @include breakpoint($bp-med) {
       @include span(5);
-    }
-    @include breakpoint($bp-large-2) {
-      @include span(6);
+      padding-left: 0;
     }
   }
   .head [role=navigation] {
     @include breakpoint($bp-small-3) {
       @include span(4 at 9);
     }
+    @include breakpoint($bp-med) {
+      @include span(5 at 6);
+    }
     @include breakpoint($bp-large-2) {
-      @include span(3 at 7);
+      @include span(4 at 6);
     }
   }
   .social {
-    @include breakpoint($bp-med) {
-      @include span(3 at 10);
-    }
     @include breakpoint($bp-large-2) {
-      @include span(3 at 8);
+      @include span(2 at 8);
     }
   }
   .main {

@@ -14,7 +14,7 @@ h1, .h1 {
     @media (min-width: $bp-med) {
       // [3]
       margin-bottom: emRhythm(4, $ms-up3); // [4]
-      @include setType(8, $ms-up3); // [5]
+      @include setType(10, $ms-up3); // [5]
     }
 
     @media (min-width: $bp-large-2) {
@@ -38,12 +38,10 @@ h1, .h1 {
     }
   }
 
-  h3, .h3 {
-    margin-bottom: emRhythm(4, $ms-up1);
+  h3, .h3 {;
     @include setType(5, $ms-up1);
 
     @media (min-width: $bp-large-2) {
-      margin-bottom: emRhythm(4, $ms-up2);
       @include setType(6, $ms-up2);
     }
   }
