@@ -27,6 +27,7 @@
     "grunt-shell": "^0.7.0",
     "grunt-svgmin": "~0.4.0",
     "grunt-uncss": "~0.3.5",
+    "grunt-webfontjson": "0.0.4",
     "matchdep": "^0.3.0"
   },
   "scripts": {
