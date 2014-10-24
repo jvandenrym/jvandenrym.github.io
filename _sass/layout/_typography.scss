@@ -38,9 +38,9 @@ h1, .h1 {
     }
   }
 
-  h3, .h3 {;
+  h3, .h3 {
+    margin-bottom: emRhythm(1, $ms-up1);
     @include setType(5, $ms-up1);
-
     @media (min-width: $bp-large-2) {
       @include setType(6, $ms-up2);
     }
