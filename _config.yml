@@ -65,7 +65,7 @@ assets:
   root_url: '/assets'
 images:
   root_url: '/assets/images'
-  lazy: true
+  lazy: false
 
 gems:
   - jekyll-last-modified-at

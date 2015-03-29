@@ -1,10 +1,4 @@
 
-##Professional life##
-
-I am certified as a web designer since 2002. 
-
-At my latest job at [ESN](http://www.esn.eu/company) (European Services Network), a leading provider of multilingual, multi-channel, multimedia communication services to the European institutions. I worked there since 2008 as a web integrator and a front-end web developer where I got to work on many exciting projects for the European Commission and the Flemish Government. 
-
 I dabble in user interface design, user experience, wire-framing and prototyping. 
 I create mobile-friendly and responsive websites. 
 I have a knack for accessibility, semantic mark-up.
@@ -12,48 +6,6 @@ I have a knack for accessibility, semantic mark-up.
 Experience with feature-driven development, [Agile](http://www.allaboutagile.com/what-is-agile-10-key-principles/), [SCRUM](https://www.scrum.org/Resources/What-is-Scrum) and [JIRA](https://www.atlassian.com/software/jira/agile).
 Avid user of front-end tools like [SASS](http://sass-lang.com/), [Grunt](http://gruntjs.com/),... to speed-up, improve and organise workflow of a project. Embrace <abbr title="Keep it simple &amp; straightforward.">KISS</abbr> and <abbr title="Don't Repeat Yourself">DRY</abbr> principles.
 
+Drupal front-end development.
+
 Follow all latest UI design trends, accessibility and emerging technologies. Find [me](https://twitter.com/johanvdr) actively discussing any of these topics on Twitter.
-
-##Skills##
-
-###Web Stack###
-* [Linux](https://www.linux.com/learn/new-user-guides/376-linux-is-everywhere-an-overview-of-the-linux-operating-system) ([Ubuntu](https://help.ubuntu.com/12.04/installation-guide/i386/what-is-ubuntu.html)), [Terminal](https://help.ubuntu.com/community/UsingTheTerminal)
-* [Sublime](http://www.sublimetext.com/) editor
-
-###Front-end tools###
-* <abbr title="HyperText Markup Language">HTML 5</abbr> &amp; <abbr title="Cascading Stylesheets">CSS 3</abbr>: Selectors, Media Queries, <abbr title="Object-Oriented CSS">OOCSS</abbr>, <abbr title="Block, Element, Modifier">BEM</abbr>, [AM Modules for CSS](http://amcss.github.io/)
-* <abbr title="Extensible Hypertext Markup Language">XHTML 1</abbr>, <abbr title="Extensible Markup Language">XML 1</abbr>
-* CSS pre-processors (<abbr title="Syntactically Awesome Style Sheets">SASS</abbr>)
-* <abbr title="Scalable Vector Graphics">SVG</abbr>
-* [Bootstrap](http://getbootstrap.com/) framework
-* [Jquery](http://jquery.com/), [Mootools](http://mootools.net/), [plain javascript](http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/)
-* [Grunt](ttp://gruntjs.com/) (node.js), [Angular](https://angularjs.org/) JS (Routes)
-
-###Web Standards and Accessibility###
-* <abbr title="World Wide Web Consortium">W3C</abbr> [standards](http://www.w3.org/standards/)
-* <abbr title="Web Accessibility Initiative - Accessible Rich Internet Applications (standards suite)">WAI-ARIA</abbr>
-* <a href="http://www.w3.org/TR/WCAG20/" title="Web Content Accessibility Guidelines">WCAG 2.0</a>, <a href="http://www.webaim.org/standards/508/checklist">Section 508</a> accessibility guidelines
-
-###Visual Design Tools###
-* Photoshop, Fireworks, Gimp
-* Illustrator, Inkscape
-* Wire-framing and proto-typing: [Mindmeister](http://www.mindmeister.com/), [Axure](http://www.axure.com/)
-* Design in the browser
-
-###Content Management Systems###
-* Drupal: +5 years of experience, participate in the [Drupal community](https://www.drupal.org/user/2514444), Drush, build custom themes (front-end and admin themes) with emphasis on Front-end performance , Drupal Coding Standards, Panels, Context, Views, phpTemplate (<abbr title="Hypertext Pre-processor">PHP</abbr> &amp; Drupal API), Composer
-* In-house ColdFusion CMS: building theme with Coldfusion and XML, static HTML site generator.
-* Jekyll: liquid template and Ruby on Rails, static HTML site generator.
-
-###Software Development###
-* Agile: Scrum. Feature-driven development in a team of front-end developers, back-end developers and UX designers together with the Product Owner and Scrum Master . Daily stand-up meetings.
-* Project-based (waterfall)
-* Peer review, Quality control and - Assesment.
-
-###Unit testing###
-* Selenium and Browser Stack (screenshot diffs UI)
-
-###Languages###
-* Dutch (mother tongue)
-* English (Full professional proficiency)
-* French (Professional proficiency)

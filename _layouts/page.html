@@ -1,16 +1,8 @@
 ---
 layout: default
 ---
- <div class="page page--default">
-  <div class="head">
-    <header>
-      <a href="/">
-        <h1 class="logo">{{ site.name }}<span>Thoughts about code and design.</span></h1>
-      </a>
-    </header>
-    {% include navigation.html %}
-    {% include social.html %}
-  </div>
+<div class="page page--home">
+  {% include header.html %}
   <div class="main">
     <main role="main" id="main">
       <article class="post">
@@ -22,4 +14,5 @@ layout: default
     </main>
   </div>
   {% include footer.html %}
+</div>
 </div>

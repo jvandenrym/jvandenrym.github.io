@@ -227,6 +227,7 @@ module.exports = function(grunt) {
           'assets/js/**/*.js',
           '_sass/**/*.scss',
           'assets/css/**/*.css',
+          'assets/images/**/*.svg',
           '_posts/*.md',
           '_includes/*.html',
           '_includes/*.md',

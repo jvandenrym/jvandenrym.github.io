@@ -2,30 +2,9 @@
 layout: default
 ---
 <div class="page page--home">
-  <div class="head">
-    <header>
-      <a href="/">
-        <h1>{{ site.name }}<span>Thoughts about code and design.</span></h1>
-      </a>
-    </header>
-    {% include navigation.html %}
-    {% include social.html %}
-  </div>
-
-{% assign content = post.content %}
-{% assign post = site.posts.first %}
-
-  <div class="intro">
-    <div class="logo">
-      <div class="logo__front"></div>
-      <div class="logo__back">
-        <div class="logo--wrap">
-          <div class="logo--vcenter"><p>I am a Front-end developer with a knack for UX, Design, Mobile, Semantics and Accessibility.</p>
-         </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  {% include header.html %}
+  {% assign content = post.content %}
+  {% assign post = site.posts.first %}
   <main role="main" id="main">
     <article>
       <header>
@@ -33,17 +12,18 @@ layout: default
           <h1>{% if post.title %}{{ post.title }}{% endif %}</h1>
         </a>
         <div itemscope itemtype="http://schema.org/Article">
-          <time itemprop="datePublished" datetime="{{ post.date |  date: "%F" }}" class="date">
-            {{ post.date | date: "%d %b %Y"}}
+          <time itemprop="datePublished" datetime="{{ post.date |  date: "%d-%m-%Y" }}" class="date">
+            {{ post.date | date: "%B %-d"}}
           </time>
         </div>
       </header>
       <div class="entry">
         {% if post.teaser %}<p>{{ post.teaser }}</p>{% endif %}
+        <p class="read-more"><a class="read-more__link" href="{{ root_url }}{{ post.url }}">Continue reading</a></p>
       </div>
-      <p class="read-more"><a class="read-more__link" href="{{ root_url }}{{ post.url }}">Continue reading</a></p>
+      
     </article>
-    <p>Interested in older posts? <a class="read-more__link" href="/archive">Browse the archive</a></p>
   </main>
+  
   {% include footer.html %}
 </div>

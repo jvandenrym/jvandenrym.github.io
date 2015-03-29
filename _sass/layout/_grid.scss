@@ -4,11 +4,10 @@ $susy: (
   columns: 12,
   gutters: 1,
   gutter-position: inside
-);
+  );
 
 body {
-  
-  @include container($bp-xl-2);
+  @include container($bp-med);
 }
 .page {
   @include full();
@@ -22,15 +21,15 @@ body {
       > header,
       [role=navigation],
       .social  {
-        display: table-cell;
-        vertical-align: bottom;
-        float: none !important;
+       // display: table-cell;
+        //vertical-align: bottom;
+        //float: none !important;
       }
     }
   }
   // footer
   .footer {
-    @include full();
+    //@include full();
   }
 }
 
@@ -38,32 +37,33 @@ body {
 .page--home {
   .head {
     header {
-      @include breakpoint($bp-med) {
-        @include span(5);
-        padding-left: 0 !important;
-      }
+      // @include breakpoint($bp-med) {
+      //   //@include span(5);
+      //   padding-left: 0 !important;
+      // }
     }
     [role=navigation] {
-      @include breakpoint($bp-med) {
-        @include span(5 at 6);
-        padding: 0 !important;
-      }
+      text-align: center;
+      // @include breakpoint($bp-med) {
+      //   @include span(5 at 6);
+      //   padding: 0 !important;
+      // }
     }
     .social {
       padding: 0 !important;
-      @include breakpoint($bp-med) {
-        @include span(2 at 8);
-      }
+      // @include breakpoint($bp-med) {
+      //   @include span(2 at 8);
+      // }
     }  
   }
-  .intro {
-    margin: 0 0 0.5em 0;
-    @include breakpoint($bp-med) {
-      @include span(5);
-      padding-left: 0;
-    }
-  }
   main {
+    margin: 0 0 0.5em 0;
+    // @include breakpoint($bp-med) {
+    //   @include span(5);
+    //   padding-left: 0;
+    // }
+  }
+  .intro {
     @include breakpoint($bp-med) {
       @include span(7 at 6);
       padding-left: 0;
@@ -80,25 +80,34 @@ body {
     }
   }
   .head [role=navigation] {
-    @include breakpoint($bp-small-3) {
-      @include span(4 at 9);
-    }
-    @include breakpoint($bp-med) {
-      @include span(5 at 6);
-    }
-    @include breakpoint($bp-large-2) {
-      @include span(4 at 6);
-    }
+    // @include breakpoint($bp-small-3) {
+    //   @include span(4 at 9);
+    // }
+    // @include breakpoint($bp-med) {
+    //   @include span(5 at 6);
+    // }
+    // @include breakpoint($bp-large-2) {
+    //   @include span(4 at 6);
+    // }
   }
-  .social {
-    @include breakpoint($bp-large-2) {
-      @include span(2 at 8);
-    }
+
+}
+.main {
+  @include container($bp-xl-2);
+  main {
+    @include full();
   }
-  .main {
-    @include container($bp-xl-2);
-    main {
-      @include full();
-    }
+}
+.footer {
+   text-align: center;
+}
+footer {
+ display: inline-block;
+ .social {
+    
+    //@include span(2);
+  }
+  .social + p {
+     //@include span(5 at 3);
   }
 }

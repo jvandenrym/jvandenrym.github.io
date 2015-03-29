@@ -1,41 +1,24 @@
-@include web_fonts (
-  MeddleRegular OperatorLight,
-  /assets/fonts
-);
+// @include web_fonts (
+//   MeddleRegular OperatorLight,
+//   /assets/fonts
+// );
 
-
-body, header h1 span {
-   font-family: quote(map-fetch($fonts, selectors body)), $font-sans;
+body, body * {
+  font-family: 'Muli', sans-serif;
 }
-h1, .h1 {
-    margin-bottom: emRhythm(4, $ms-up2); // [1]
-    @include setType(6, $ms-up2); // [2]
-
-    @media (min-width: $bp-med) {
-      // [3]
-      margin-bottom: emRhythm(4, $ms-up3); // [4]
-      @include setType(10, $ms-up3); // [5]
-    }
-
-    @media (min-width: $bp-large-2) {
-      margin-bottom: emRhythm(4, $ms-up4);
-      @include setType(12, $ms-up4);
-    }
+body, header h1 span {
+   //font-family: quote(map-fetch($fonts, selectors body)), $font-sans;
+}
+  h1, .h1 {
+    margin: 1em 0;
+     @include setType(8, $ms-up3);
+     text-align: center;
   }
 
   h2, .h2 {
-    margin-bottom: emRhythm(4, $ms-up1);
-    @include setType(5, $ms-up1);
-
-    @media (min-width: $bp-med) {
-      margin-bottom: emRhythm(4, $ms-up2);
-      @include setType(6, $ms-up2)
-    }
-
-    @media (min-width: $bp-large-2) {
-      margin-bottom: emRhythm(4, $ms-up3);
-      @include setType(8, $ms-up3);
-    }
+    margin: 1em 0;
+     @include setType(8, $ms-up2);
+     text-align: center;
   }
 
   h3, .h3 {
@@ -79,6 +62,6 @@ h1, .h1 {
   }
 
 #{headings()} {
-  font-family: quote(map-fetch($fonts, selectors headings)), $font-sans;
+  //font-family: quote(map-fetch($fonts, selectors headings)), $font-sans;
   font-weight: normal;
 }

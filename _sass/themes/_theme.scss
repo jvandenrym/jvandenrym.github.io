@@ -70,10 +70,13 @@ a {
     color:  $link-hover;
     text-decoration: none;
   }
-  &:after {
+  &:after,
+  &.b-navigation__link__link_state_current:after {
     @extend %link;
   }
-  &:hover:after {
+
+  &:hover:after,
+  &.b-navigation__link__link_state_current:after  {
     @extend %link-active;
   }
 }
@@ -89,12 +92,12 @@ header a:after,
   z-index: 1000;
   background: #fff;
   header {
-    text-align: center;
+    //text-align: center;
     @include breakpoint($bp-med) {
       text-align: left;
     }
     h1 {
-      @include setType(6, $ms-up1);
+      @include setType(7, $ms-up1);
       @include breakpoint($bp-med-2) {
         @include setType(6, $ms-up2);
       }
@@ -112,15 +115,7 @@ header a:after,
   }
 }
 
-.head header .logo {
-  @extend %logo;
-  background-position: left top;
-  background-size: contain;
-  padding-left: 1.35em;
-  @include breakpoint($bp-med) {
-    padding-left: 2.1em;
-  }
-}
+
 
 .head {
   .page--default & {
@@ -133,9 +128,9 @@ header a:after,
 }
 
 [role=navigation] {
-  margin: 0 0 0.5em 0;
+  margin: 1em 0 0.5em 0;
   @include breakpoint($bp-med) {
-    margin: 0;
+    //margin: 0;
   }
 }
 
@@ -146,15 +141,13 @@ header a:after,
   );
 }
 .b-navigation__link {
-  text-transform: uppercase;
   position: relative;
 }
 
 
-
 // posts
 .main > main {
-  padding-top: 2rem;
+  //padding-top: 2rem;
 }
 article.post {
   @include container($bp-med);
@@ -207,18 +200,19 @@ figure {
 }
 // social icons and RSS feed
 .social {
-  text-align: center;
-  @include breakpoint($bp-med) {
-    text-align: left;
-  }
+  // margin-top: 1em;
+  // text-align: center;
+  // @include breakpoint($bp-med) {
+  //   text-align: left;
+  // }
 }
 .social ul {
   list-style: none;
   margin: 0;
-  text-align: center;
-  display: inline-block;
+  //text-align: center;
+  //display: inline-block;
   @include breakpoint($bp-med) {
-    float: right;
+    //float: right;
   }
 }
 .social li {
@@ -274,7 +268,7 @@ html[data-useragent*='Trident'] .page--default .icon:after {
   position: absolute;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 1rem auto;
+  background-size: 2rem auto;
   z-index: 10;
   left: 0;
   top: 0;

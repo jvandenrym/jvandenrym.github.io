@@ -1,6 +1,6 @@
 ---
 title:  The meat of the burger icon
-teaser: What is the future of the hamburger icon as a responsive design pattern? 
+teaser: What is the future of the hamburger icon as a responsive design pattern? It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then. Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.
 layout: post
 ---
 
