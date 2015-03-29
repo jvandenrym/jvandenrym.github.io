@@ -17,10 +17,10 @@
 &lt;ul&gt;
 &lt;li&gt;Media queries and selectors (and pseudo selectors and -elements). The building blocks of your theme for your styles;&lt;/li&gt;
 &lt;li&gt;Further chapters are about styling elements: typography, borders, boxes, colors, gradients, opacity, backgrounds;&lt;/li&gt;
-&lt;li&gt;2D and 3D transformations&lt;/li&gt;
+&lt;li&gt;2D and 3D transformations;&lt;/li&gt;
 &lt;li&gt;How you can animate elements (animations, transitions);&lt;/li&gt;
 &lt;li&gt;Columns, grid layouts (flex grids);&lt;/li&gt;
-&lt;li&gt;Advanced stuff: blend modes, filters and masks;&lt;/li&gt;
+&lt;li&gt;Advanced stuff: blend modes, filters and masks.&lt;/li&gt;
 &lt;/ul&gt;
 
 
