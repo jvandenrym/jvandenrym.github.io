@@ -33,8 +33,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png">
   <link rel="apple-touch-icon-precomposed" href="/favicon-57.png">
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
   
-  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2014-10-24T02%3A15%3A31%2B02%3A00">
+  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2015-03-29T21%3A58%3A14%2B02%3A00">
   
   <!--[if lt IE 9]>
   <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -47,7 +49,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-54573732-1', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -63,14 +65,11 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
 </head>
 <body>
   <a href="#main">skip to content</a>
-   <div class="page page--default">
-  <div class="head">
-    <header>
-      <a href="/">
-        <h1 class="logo">Johan Van den Rym<span>Thoughts about code and design.</span></h1>
-      </a>
-    </header>
-    <nav role="navigation" aria-label="site links">
+  <div class="page page--home">
+  <header role="banner">
+ <div class="svg-container"><a href="/"><img alt="" src="/assets/images/logo.svg" class="logo"></a></div>
+</header>
+ <nav role="navigation" aria-label="site links">
   <ul class="b-navigation b-navigation_layout_horiz">
     
     
@@ -95,20 +94,6 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
     
   </ul>
 </nav>
-    <div class="social">
-  <ul aria-label="social media and RSS links">
-    <li>
-      <a href="https://twitter.com/johanvdr" class="icon icon--twitter"><span class="screenreader">@johanvdr on Twitter</span></a>
-    </li>
-    <li>
-      <a href="http://be.linkedin.com/pub/johan-van-den-rym/3/b99/a4a" class="icon icon--linkedin"><span class="screenreader">Johan Van den Rym on Linkedin</span></a>
-    </li>
-    <li>
-      <a href="/blog_feed.xml" class="icon icon--rss"><span class="screenreader">RSS feed of blog posts</span></a> 
-    </li>
-  </ul>
-</div>
-  </div>
   <div class="main">
     <main role="main" id="main">
       <article class="post">
@@ -123,44 +108,44 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
 
 <p>Created a Drupal front-end theme based on the Bootstrap framework. <em>This website has been since replaced in 2014</em>, the version I did is <a href="https://web.archive.org/web/20130611194226/http://kanooh.be/">archived here</a>.</p>
 
-<figure><img class="lazy" data-src="/assets/images/kanooh.jpg" src="/assets/images/" /><figcaption>Homepage has a more information pane that scrolls over the page slider</figcaption></figure>
+<figure><img src="/assets/images/kanooh.jpg" alt="Homepage www.kanooh.be" /><figcaption>Homepage has a more information pane that scrolls over the page slider</figcaption></figure>
 
-<figure><img class="lazy" data-src="/assets/images/kanooh_inside_page.jpg" src="/assets/images/" /><figcaption>Inside page example with responsive tables.</figcaption></figure>
+<figure><img src="/assets/images/kanooh_inside_page.jpg" alt="Interior page www.kanooh.be" /><figcaption>Inside page example with responsive tables.</figcaption></figure>
 
 <h2 id="een-boeiend-klasspel">Een Boeiend klasspel</h2>
 
-<figure><img class="lazy" data-src="/assets/images/boeiendklasspel.jpeg" src="/assets/images/" /><figcaption>Small campaign website (campaign finished). Custom theme development in Drupal 7, CSS 3 animation and Jquery</figcaption></figure>
+<figure><img src="/assets/images/boeiendklasspel.jpeg" alt="Homepage" /><figcaption>Small campaign website (campaign finished). Custom theme development in Drupal 7, CSS 3 animation and Jquery</figcaption></figure>
 
 <h2 id="muntpunt">Muntpunt</h2>
 
 <p>Created Drupal page templates for the <a href="http://www.muntpunt.be/agenda/search">Agenda section</a>. This involved customization of the UIT agenda API templates and integration of Google API for localization.</p>
 
-<figure><img class="lazy" data-src="/assets/images/muntpunt_agenda_search.jpg" src="/assets/images/" /><figcaption>Search page for events (UIT agenda)</figcaption></figure>
+<figure><img src="/assets/images/muntpunt_agenda_search.jpg" alt="Agenda www.muntpunt.be" /><figcaption>Search page for events (UIT agenda)</figcaption></figure>
 
-<figure><img class="lazy" data-src="/assets/images/muntpunt_agenda_local.jpg" src="/assets/images/" /><figcaption>Event detail page with Google Maps integration</figcaption></figure>
+<figure><img src="/assets/images/muntpunt_agenda_local.jpg" alt="Agenda detail page www.muntpunt.be" /><figcaption>Event detail page with Google Maps integration</figcaption></figure>
 
 <h2 id="onderwijs-vlaanderen">Onderwijs Vlaanderen</h2>
 
 <p>Working from an analysis of the existing information architecture. From card sorting and IA reports created wireframes and prototypes in Axure. Website is now <a href="http://onderwijs.vlaanderen.be/">online</a>.</p>
-<figure><img class="lazy" data-src="/assets/images/ond_vlaanderen.jpg" src="/assets/images/" /><figcaption>Information architecture analysis</figcaption></figure>
+<figure><img src="/assets/images/ond_vlaanderen.jpg" alt="Onderwijs VL" /><figcaption>Information architecture analysis</figcaption></figure>
 
 <h2 id="go-platform">Go! Platform</h2>
 
 <p>Our graphic studio first created a visual identity for the Go! School network websites. Build a Drupal 7 multi-site system that allowed for distinct theme for <a href="http://www.katervuren.be/">each school</a> with a common base theme for each school. Drupal custom modules like school calendar, newsletters, photo album were all custom built. (Drupal theming - CSS - Jquery - ARIA)</p>
-<figure><img class="lazy" data-src="/assets/images/go_websites.jpg" src="/assets/images/" /><figcaption>Homepage of school KTA Tervuren</figcaption></figure>
+<figure><img src="/assets/images/go_websites.jpg" alt="Go websites example website" /><figcaption>Homepage of school KTA Tervuren</figcaption></figure>
 
 <h2 id="european-research-council">European Research Council</h2>
 
 <p>The main goal of the <a href="http://erc.europa.eu">European Research Council (ERC)</a> is to encourage high quality research in Europe through competitive funding. Build the custom drupal 6 theme, module to display organization members and a module to display related videos.</p>
-<figure><img class="lazy" data-src="/assets/images/erc_homepage.jpg" src="/assets/images/" /><figcaption>Homepage of erc.europa.eu</figcaption></figure>
+<figure><img src="/assets/images/erc_homepage.jpg" alt="European Research Council" /><figcaption>Homepage of erc.europa.eu</figcaption></figure>
 
 <h2 id="green-week-conference">Green week conference</h2>
 
 <p>Green Week, the biggest annual conference on European environment. Created a drupal conference website with live photo and video blogging during the 3-day event. Build the custom theme and page templates for the website. <em><a href="http://ec.europa.eu/environment/archives/greenweek2012/">Website</a> is only available as static HTML as it gets archived after the conference ends.</em></p>
 
-<figure><img class="lazy" data-src="/assets/images/greenweek_2012.jpg" src="/assets/images/" /><figcaption>Homepage of the Greenweek 2012 conference website</figcaption></figure>
+<figure><img src="/assets/images/greenweek_2012.jpg" alt="Greenweek 2012" /><figcaption>Homepage of the Greenweek 2012 conference website</figcaption></figure>
 
-<figure><img class="lazy" data-src="/assets/images/greenweek_2010.jpg" src="/assets/images/" /><figcaption>Homepage of Greenweek</figcaption></figure>
+<figure><img src="/assets/images/greenweek_2010.jpg" alt="Greenweek 2010" /><figcaption>Homepage of Greenweek</figcaption></figure>
 <p><a href="http://ec.europa.eu/environment/archives/greenweek2010/index.html">Visit Greenweek 2010</a></p>
 
 <h2 id="marie-curie-actions">Marie Curie Actions</h2>
@@ -168,7 +153,7 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
 <p>Marie Curie Actions fellowships for researchers is a website where you will find practical information on each of the Marie Curie actions including guidance on how to apply for funding, information on progress of calls for proposals, evaluation and funding decisions.
 Creation of theme, and custom news slider with video player integration. Worked on additional page template designs.</p>
 
-<figure><img class="lazy" data-src="/assets/images/marie_curie_actions.png" src="/assets/images/" /><figcaption>Homepage of Marie Curie Actions</figcaption></figure>
+<figure><img src="/assets/images/marie_curie_actions.png" alt="Marie Curie Actions" /><figcaption>Homepage of Marie Curie Actions</figcaption></figure>
 <p><a href="http://ec.europa.eu/research/mariecurieactions/">Visit MCA</a></p>
 
       </article>
@@ -176,12 +161,26 @@ Creation of theme, and custom news slider with video player integration. Worked 
   </div>
   <div class="footer">
   <footer role="contentinfo">
-    <p>copyright &copy; 2014 Johan Van den Rym</p>
+    <div class="social">
+  <ul aria-label="social media and RSS links">
+    <li>
+      <a href="https://twitter.com/johanvdr" class="icon icon--twitter"><span class="screenreader">@johanvdr on Twitter</span></a>
+    </li>
+    <li>
+      <a href="http://be.linkedin.com/pub/johan-van-den-rym/3/b99/a4a" class="icon icon--linkedin"><span class="screenreader">Johan Van den Rym on Linkedin</span></a>
+    </li>
+    <li>
+      <a href="/blog_feed.xml" class="icon icon--rss"><span class="screenreader">RSS feed of blog posts</span></a> 
+    </li>
+  </ul>
+</div>
+    <p>copyright &copy; 2015 all rights reserved</p>
   </footer>
 </div>
 </div>
+</div>
   
-  <script src="/assets/js/app.min.js?bust=2014-10-24T02%3A15%3A31%2B02%3A00"></script>
+  <script src="/assets/js/app.min.js?bust=2015-03-29T21%3A58%3A14%2B02%3A00"></script>
   
 </body>
 </html>

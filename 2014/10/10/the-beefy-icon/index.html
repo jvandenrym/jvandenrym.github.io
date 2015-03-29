@@ -15,7 +15,7 @@
   <meta name="author" content="Johan Van den Rym">
   <meta name="robots" content="index,follow">
   <meta name="revisit-after" content="1 days">
-  <meta name="description" content="What is the future of the hamburger icon as a responsive design pattern?">
+  <meta name="description" content="What is the future of the hamburger icon as a responsive design pattern? It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then. Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.">
 
   <link rel="icon" sizes="16x16 32x32 48x48 64x64" href="/favicon.ico"/>
   <!--[if IE]>
@@ -33,8 +33,10 @@
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/favicon-114.png">
   <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/favicon-72.png">
   <link rel="apple-touch-icon-precomposed" href="/favicon-57.png">
+  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
   
-  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2014-10-24T02%3A15%3A31%2B02%3A00">
+  <link rel="stylesheet" href="/assets/css/style.min.css?bust=2015-03-29T21%3A58%3A14%2B02%3A00">
   
   <!--[if lt IE 9]>
   <script src="cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -47,7 +49,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-54573732-1', 'auto');
+  ga('create', '', 'auto');
   ga('send', 'pageview');
 
 </script>
@@ -63,14 +65,11 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
 </head>
 <body>
   <a href="#main">skip to content</a>
-  <div class="page page--default">
-<div class="head">
-<header>
-<a href="/">
-<h1 class="logo">Johan Van den Rym<span>Thoughts about code and design.</span></h1>
-</a>
+  <div class="page page--home">
+  <header role="banner">
+ <div class="svg-container"><a href="/"><img alt="" src="/assets/images/logo.svg" class="logo"></a></div>
 </header>
-<nav role="navigation" aria-label="site links">
+ <nav role="navigation" aria-label="site links">
   <ul class="b-navigation b-navigation_layout_horiz">
     
     
@@ -93,40 +92,20 @@ grunticon(["/assets/css/data.svg.css", "/assets/css/data.png.css", "/assets/css/
     
   </ul>
 </nav>
-<div class="social">
-  <ul aria-label="social media and RSS links">
-    <li>
-      <a href="https://twitter.com/johanvdr" class="icon icon--twitter"><span class="screenreader">@johanvdr on Twitter</span></a>
-    </li>
-    <li>
-      <a href="http://be.linkedin.com/pub/johan-van-den-rym/3/b99/a4a" class="icon icon--linkedin"><span class="screenreader">Johan Van den Rym on Linkedin</span></a>
-    </li>
-    <li>
-      <a href="/blog_feed.xml" class="icon icon--rss"><span class="screenreader">RSS feed of blog posts</span></a> 
-    </li>
-  </ul>
-</div>
-</div>
 <div class="main">
 <main role="main" id="main">
 <article class="post">
 <header>
 <h1>The meat of the burger icon</h1>
-<div itemscope itemtype="http://schema.org/Article">
-<time itemprop="datePublished" datetime="2014-10-10" class="date">
-Published: 10 Oct 2014
-</time>
-<time itemprop="dateModified" datetime="%" class="date">
-Last update: 15 Oct 2014
-</time>
-</div>
+What is the future of the hamburger icon as a responsive design pattern? It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then. Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.
 </header>
+
 <h2>Why hamburger icons?</h2>
 
 <p>It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then.
 Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.</p>
 
-<p><figure><img class="lazy" data-src="/assets/images/xerox_big.png" src="/assets/images/"><figcaption>Xerox Star burger icon</figcaption></figure></p>
+<p><figure><img src="/assets/images/xerox_big.png" alt="Xerox Star burger icon"><figcaption>Xerox Star burger icon</figcaption></figure></p>
 
 <p>The hamburger as a design pattern got re-introduced again when it was used in mobile apps and found its way to responsive web design and web design in general. But is it any good?</p>
 
@@ -135,7 +114,7 @@ Contextual menus and site navigation of a website are not equal concepts. The id
 <p>Another reason would be to hide the navigation all together to focus on content first.  This could work if the end-user is still able to find its way. On this <a href="http://www.wbw.ch/">website</a> the entire menu is hidden under a burger icon on the desktop also on larger viewport sizes.
 There must be links in that hidden navigation that are important enough to be visible instead of hidden. This question is often overlooked. Following this <a href="http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/">study</a> from the Nielsen Group it is not a good idea to dismiss the top-level navigation and replace it with a hidden dropdown.</p>
 
-<p><figure><img class="lazy" data-src="/assets/images/burger_desktop.jpg" src="/assets/images/"><figcaption>Example of burger icon on desktop</figcaption></figure></p>
+<p><figure><img src="/assets/images/burger_desktop.jpg" alt="Example of burger icon on desktop"><figcaption>Example of burger icon on desktop</figcaption></figure></p>
 
 <h2>Navigation and UI</h2>
 
@@ -154,12 +133,12 @@ There must be links in that hidden navigation that are important enough to be vi
 <p>When the hamburger icon is used you don't see always state changes applied in the user interaction design. To provide a better user interaction adding a animated current state change proves very effective. As showcased here by using <a href="http://sarasoueidan.com/blog/navicon-transformicons/">CSS 3 transformations</a> that indicate state change. This will help to make the end-user understand better the interaction performed.</p>
 
 <div class="inline-image">
-<figure><img class="lazy" data-src="/assets/images/modal.jpg" src="/assets/images/"><figcaption>Example of a modal-like pattern</figcaption></figure>
+<figure><img src="/assets/images/modal.jpg" alt="Example of a modal-like pattern"><figcaption>Example of a modal-like pattern</figcaption></figure>
 </div>
 
 
 <div class="inline-image">
-<figure><img class="lazy" data-src="/assets/images/modal_active.jpg" src="/assets/images/"><figcaption>Example of a modal-like  pattern (active state)</figcaption></figure>
+<figure><img src="/assets/images/modal_active.jpg" alt="Example of a modal-like pattern"><figcaption>Example of a modal-like  pattern (active state)</figcaption></figure>
 </div>
 
 
@@ -168,6 +147,9 @@ There must be links in that hidden navigation that are important enough to be vi
 </article>
 <nav class="page-navigation" aria-label="blog posts navigation" role="navigation">
 <div>
+
+<a href="/2015/03/29/the-book-of-css3-review/" title="Newer Post:
+The book of CSS 3 - a review" class="page-navigation__link page-navigation__link--right" rel="next">&larr; The book of CSS 3 - a review</a>
 
 
 <a href="/2006/06/06/interview-with-andy-budd/" title="Older Post:
@@ -179,13 +161,26 @@ Andy Budd about user experience" class="page-navigation__link page-navigation__l
 </div>
 <div class="footer">
   <footer role="contentinfo">
-    <p>copyright &copy; 2014 Johan Van den Rym</p>
+    <div class="social">
+  <ul aria-label="social media and RSS links">
+    <li>
+      <a href="https://twitter.com/johanvdr" class="icon icon--twitter"><span class="screenreader">@johanvdr on Twitter</span></a>
+    </li>
+    <li>
+      <a href="http://be.linkedin.com/pub/johan-van-den-rym/3/b99/a4a" class="icon icon--linkedin"><span class="screenreader">Johan Van den Rym on Linkedin</span></a>
+    </li>
+    <li>
+      <a href="/blog_feed.xml" class="icon icon--rss"><span class="screenreader">RSS feed of blog posts</span></a> 
+    </li>
+  </ul>
+</div>
+    <p>copyright &copy; 2015 all rights reserved</p>
   </footer>
 </div>
 </div>
 
   
-  <script src="/assets/js/app.min.js?bust=2014-10-24T02%3A15%3A31%2B02%3A00"></script>
+  <script src="/assets/js/app.min.js?bust=2015-03-29T21%3A58%3A14%2B02%3A00"></script>
   
 </body>
 </html>

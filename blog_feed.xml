@@ -7,13 +7,48 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>The book of CSS 3 - a review</title>
+        <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/cover-240.jpg&quot; alt=&quot;The Book of CSS3: A Developer’s Guide to the Future of Web Design, writ­ten by Peter Gasston&quot;&gt;&lt;figcaption&gt;The Book of CSS3: A Developer’s Guide to the Future of Web Design, writ­ten by Peter Gasston&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+
+&lt;h2&gt;What is it about?&lt;/h2&gt;
+
+&lt;p&gt;This book offers a good introduction to CSS 3 and will make you ready to start using CSS 3 in your future projects. All CSS 3 features get explained in length and in-depth with coding examples. This is a great asset of the book: thoroughly explained. The book goes through:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Media queries and selectors (and pseudo selectors and -elements). The building blocks of your theme for your styles;&lt;/li&gt;
+&lt;li&gt;Further chapters are about styling elements: typography, borders, boxes, colors, gradients, opacity, backgrounds;&lt;/li&gt;
+&lt;li&gt;2D and 3D transformations&lt;/li&gt;
+&lt;li&gt;How you can animate elements (animations, transitions);&lt;/li&gt;
+&lt;li&gt;Columns, grid layouts (flex grids);&lt;/li&gt;
+&lt;li&gt;Advanced stuff: blend modes, filters and masks;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;And an overview of the browser support.&lt;/p&gt;
+
+&lt;h2&gt;Who is it for?&lt;/h2&gt;
+
+&lt;p&gt;Web designers, Front-end developers and Web developers in general that would like to get up to speed with CSS 3 and the many features it has to offer. It aims at both beginners, intermediate and advanced users.&lt;/p&gt;
+
+&lt;h2&gt;What did you think of the book?&lt;/h2&gt;
+
+&lt;p&gt;I think this book is a great book to learn more about CSS 3. Each chapter starts off with an introduction and delves into it. It not only explains how everyhting works (properties) but also what possible caveats are when you would use one or other feature. Both coding examples and concise illustrations of what the code produces in the front-end do a good job of explaining it all.&lt;/p&gt;
+
+&lt;p&gt;Recommended! &lt;a href=&quot;http://thebookofcss3.com/&quot;&gt;Get the book here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Mar 2015 00:00:00 +0100</pubDate>
+        <link>/2015/03/29/the-book-of-css3-review/</link>
+        <guid isPermaLink="true">/2015/03/29/the-book-of-css3-review/</guid>
+      </item>
+    
+      <item>
         <title>The meat of the burger icon</title>
         <description>&lt;h2&gt;Why hamburger icons?&lt;/h2&gt;
 
 &lt;p&gt;It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then.
 Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/xerox_big.png&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Xerox Star burger icon&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/xerox_big.png&quot; alt=&quot;Xerox Star burger icon&quot;&gt;&lt;figcaption&gt;Xerox Star burger icon&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;p&gt;The hamburger as a design pattern got re-introduced again when it was used in mobile apps and found its way to responsive web design and web design in general. But is it any good?&lt;/p&gt;
 
@@ -22,7 +57,7 @@ Contextual menus and site navigation of a website are not equal concepts. The id
 &lt;p&gt;Another reason would be to hide the navigation all together to focus on content first.  This could work if the end-user is still able to find its way. On this &lt;a href=&quot;http://www.wbw.ch/&quot;&gt;website&lt;/a&gt; the entire menu is hidden under a burger icon on the desktop also on larger viewport sizes.
 There must be links in that hidden navigation that are important enough to be visible instead of hidden. This question is often overlooked. Following this &lt;a href=&quot;http://www.nngroup.com/articles/killing-global-navigation-one-trend-avoid/&quot;&gt;study&lt;/a&gt; from the Nielsen Group it is not a good idea to dismiss the top-level navigation and replace it with a hidden dropdown.&lt;/p&gt;
 
-&lt;p&gt;&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/burger_desktop.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of burger icon on desktop&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/burger_desktop.jpg&quot; alt=&quot;Example of burger icon on desktop&quot;&gt;&lt;figcaption&gt;Example of burger icon on desktop&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
 &lt;h2&gt;Navigation and UI&lt;/h2&gt;
 
@@ -41,12 +76,12 @@ There must be links in that hidden navigation that are important enough to be vi
 &lt;p&gt;When the hamburger icon is used you don&#39;t see always state changes applied in the user interaction design. To provide a better user interaction adding a animated current state change proves very effective. As showcased here by using &lt;a href=&quot;http://sarasoueidan.com/blog/navicon-transformicons/&quot;&gt;CSS 3 transformations&lt;/a&gt; that indicate state change. This will help to make the end-user understand better the interaction performed.&lt;/p&gt;
 
 &lt;div class=&quot;inline-image&quot;&gt;
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/modal.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of a modal-like pattern&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/images/modal.jpg&quot; alt=&quot;Example of a modal-like pattern&quot;&gt;&lt;figcaption&gt;Example of a modal-like pattern&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 
 
 &lt;div class=&quot;inline-image&quot;&gt;
-&lt;figure&gt;&lt;img class=&quot;lazy&quot; data-src=&quot;/assets/images/modal_active.jpg&quot; src=&quot;/assets/images/&quot;&gt;&lt;figcaption&gt;Example of a modal-like  pattern (active state)&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;/assets/images/modal_active.jpg&quot; alt=&quot;Example of a modal-like pattern&quot;&gt;&lt;figcaption&gt;Example of a modal-like  pattern (active state)&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;/div&gt;
 
 
