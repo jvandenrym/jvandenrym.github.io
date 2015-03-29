@@ -10,10 +10,10 @@ This book offers a good introduction to CSS 3 and will make you ready to start u
 
 * Media queries and selectors (and pseudo selectors and -elements). The building blocks of your theme for your styles;
 * Further chapters are about styling elements: typography, borders, boxes, colors, gradients, opacity, backgrounds;
-* 2D and 3D transformations
+* 2D and 3D transformations;
 * How you can animate elements (animations, transitions);
 * Columns, grid layouts (flex grids);
-* Advanced stuff: blend modes, filters and masks;
+* Advanced stuff: blend modes, filters and masks.
 
 And an overview of the browser support.
 
