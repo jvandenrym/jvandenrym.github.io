@@ -15,6 +15,9 @@
   color: lighten($text-color, 5%);
   display: block;
 }
+article {
+  line-height: 1.35;
+}
 
 // Footer.
 footer {
@@ -27,7 +30,8 @@ footer {
 }
 .svg-container {
  margin: 1em auto 0 auto;
- width: 6%;
+ width: 2.5em;
+ height: 2.5em;
 }
 img:not(.png) {
   width: 100%;
@@ -40,8 +44,10 @@ img:not(.png) {
 }
 .post header h1 {
   margin-bottom: 0.5em;
+  line-height: 1em;
 }
 .post h2,
+.post h3,
 main article header {
  text-align: center;
 }
