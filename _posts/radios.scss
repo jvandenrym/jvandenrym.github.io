@@ -1,0 +1,68 @@
+$form_color: #333;
+$font: 'Muli', sans-serif;
+
+*,*:before,*:after {
+  @include box-sizing(border-box);
+}
+body  {
+  font-family: $font;
+  padding: 1em;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+form {
+  color: $form_color;
+  position: relative;
+  display: block;
+}
+.hidden {
+  border: none;
+  clip: rect(1px, 1px, 1px, 1px);
+  left: -9999px;
+  margin: 0;
+  opacity: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+label  {
+  justify-content: center;
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  margin-bottom: 0.5em;
+  line-height: 1.3em;
+   &:before,
+   &:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1.3em;
+    width: 1.3em;
+    background-color: #bbbbba;
+    border-radius: 50%;
+    transition: transform 0.2s ease 0s, border 0.2s ease 0s, background 0.2s ease 0s; 
+  }
+  &:before {
+    z-index: 1;
+    background-color: #bbbbba;
+    transform: scale(1);
+  }
+  &:after {
+    background-color: #2f2f64;
+    border: 3px solid #ffffff;
+    transform: scale(0.83);
+    z-index: 2;
+  }
+  .radio-button + &:after {
+    opacity: 0;
+  }
+  .radio-button:checked + &:after {
+    opacity: 1;
+  }
+}
