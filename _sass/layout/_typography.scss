@@ -12,18 +12,16 @@ body, header h1 span {
   h1, .h1 {
     margin: 1em 0;
      @include setType(8, $ms-up3);
-     text-align: center;
   }
 
   h2, .h2 {
     margin: 1em 0;
      @include setType(8, $ms-up2);
-     text-align: center;
+
   }
 
   h3, .h3 {
     @include setType(8, $ms-up1);
-     text-align: center;
   }
 
   h4, .h4 {
