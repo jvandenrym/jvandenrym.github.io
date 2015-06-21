@@ -7,33 +7,6 @@
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Radio buttons with style</title>
-        <description>&lt;p&gt;To create a consistent and uniform style for HTML form elements certainly has had its limitations in the past and always has been rather complex to say the least.
-To completely provide styling for the select element is still not possible without resorting to Javascript. That goes for the file inputs as well. A lot of front-end developers would argue if we should style forms at all as most form elements are not easy to theme in the first place.What you would see mostly, are styled text inputs and the rest would not get styled due to the lack of consistent ways to apply the necessary styling.&lt;/p&gt;
-
-&lt;p&gt;From a recent project where there was a need to style radio buttons. A style still close to the orignal UI default. A outer circle as default and a selected state where the outer circle becomes a small dot in the center and highlighted with a background color. The idea I had was to avoid using any background images and use CSS 3 to create the styles instead.&lt;/p&gt;
-
-&lt;script src=&quot;https://gist.github.com/jvandenrym/f35f29faac40b5b2cb89.js&quot;&gt; &lt;/script&gt;
-
-
-&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/radios_unstyled.jpg&quot; alt=&quot;Radio buttons&#39; default UI look in Firefox&quot;&gt;&lt;figcaption&gt;Radio buttons&#39; default UI look in Firefox&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-
-&lt;h2&gt;Styling the radios&lt;/h2&gt;
-
-&lt;p&gt;Feel free to check the codepen. it relies on transform (scale) and border-radius to create the rounded radio button styles and you need to hide the radio button and style the label instead to make it work. You use the pseudo selector :checked to define the selected style.
-I used sass to compile the CSS but you can view the compiled css as well.&lt;/p&gt;
-
-&lt;p&gt; &lt;pre class=&quot;codepen&quot; data-height=&quot;300&quot; data-type=&quot;600&quot; data-href=&quot;zxQoXb&quot; data-user=&quot;JohanVdR&quot;&gt;&lt;code&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-
-&lt;script async src=&quot;http://codepen.io:/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Sun, 05 Apr 2015 00:00:00 +0200</pubDate>
-        <link>/2015/04/05/radios-with-css3/</link>
-        <guid isPermaLink="true">/2015/04/05/radios-with-css3/</guid>
-      </item>
-    
-      <item>
         <title>The book of CSS 3 - a review</title>
         <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/cover-240.jpg&quot; alt=&quot;The Book of CSS3: A Developer’s Guide to the Future of Web Design, writ­ten by Peter Gasston&quot;&gt;&lt;figcaption&gt;The Book of CSS3: A Developer’s Guide to the Future of Web Design, writ­ten by Peter Gasston&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
@@ -72,8 +45,7 @@ I used sass to compile the CSS but you can view the compiled css as well.&lt;/p&
         <title>The meat of the burger icon</title>
         <description>&lt;h2&gt;Why hamburger icons?&lt;/h2&gt;
 
-&lt;p&gt;It is a widely adopted UI design pattern that already was in use long before mobile and responsive even existed. Xerox Star (1981) used it for contextual menus already then.
-Contextual menus and site navigation of a website are not equal concepts. The idea behind it to save screen real estate was the main goal.&lt;/p&gt;
+&lt;p&gt;Xerox Star (1981) used it for contextual menus already then.&lt;/p&gt;
 
 &lt;p&gt;&lt;figure&gt;&lt;img src=&quot;/assets/images/xerox_big.png&quot; alt=&quot;Xerox Star burger icon&quot;&gt;&lt;figcaption&gt;Xerox Star burger icon&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 
