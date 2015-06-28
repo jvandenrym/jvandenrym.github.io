@@ -1,6 +1,6 @@
 ---
 title: Andy Budd about user experience
-teaser: Interview with Andy Budd about user experience
+teaser: Interview with Andy Budd about user experience I performed for Fadtastic, the now defunct multi-authored web design journal (Nottingham, UK).
 layout: post
 ---
 
