@@ -10,7 +10,8 @@ body {
   @include container($bp-med);
 }
 .page {
-  @include full();
+  @include push(2);
+  @include span(8 at 12);
   // header
   .head {
     @include breakpoint($bp-med) {
